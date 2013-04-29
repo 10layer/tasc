@@ -77,6 +77,13 @@ body {
   color: #3c3c38;
   border: 1px #999 solid;
 }
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer a {
+  color: #999;
+}
 .background1 {
   background-color: #f9f7f2;
 }
@@ -106,16 +113,17 @@ body {
   background-color: #FFF;
 }
 .background6 {
-  background-color: #FFF;
+  background-color: #0066ac;
+  color: #FFF;
 }
 .background7 {
   background-color: #f1eee0;
 }
 .background8 {
-  background-color: #FFF;
+  background-color: #f9f7f2;
 }
-.background-footer {
-  background-color: #808080;
+.footer {
+  background-color: #3c3c38;
   color: #FFF;
 }
 .fpitem {

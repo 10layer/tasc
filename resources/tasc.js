@@ -10,14 +10,6 @@
 })();
 
 $(function() {
-	/*$('.navbar-fixed').waypoint(function(direction) {
-		if (direction == 'down') {
-			$('.navbar').addClass('navbar-fixed-top');
-		} else if (direction == 'up') {
-			$('.navbar').removeClass('navbar-fixed-top');
-		}
-		console.log(direction);
-	});*/
 	$('.navbar').waypoint('sticky', {
 		stuckClass: 'navbar-fixed-top'
 	});
