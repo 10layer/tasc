@@ -1,7 +1,7 @@
 <?php
 	$this->load->view("templates/header");
 ?>
-
+<div class="container body">
 <div class="lead">
 	<p>The African Story Challenge (TASC) is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.</p>
 	<div class="row">
@@ -46,17 +46,21 @@
 		</div>
 	</div>
 </div>
-		
+</div>
 		<?php
 		$x = 1;
 		foreach($homepage as $el) {
 			$x++;
 		?>
 		<a name="<?= $el->_id ?>"></a>
-		<div class="row background<?= $x ?> fpitem">
-			<div class="span8 offset2">
-				<h1><?= $el->title ?></h1>
-				<?= $el->body ?>
+		<div class=" background<?= $x ?>">
+			<div class="container">
+				<div class="row fpitem">
+					<div class="span8 offset2">
+						<h1><?= $el->title ?></h1>
+						<?= $el->body ?>
+					</div>
+				</div>
 			</div>
 		</div>
 		
