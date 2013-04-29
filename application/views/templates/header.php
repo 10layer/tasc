@@ -11,20 +11,14 @@
 	<script src="/resources/jquery/jquery-1.9.1.min.js"></script>
 	<script src="/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/resources/modernizr/modernizr.js"></script>
+	<script src="/resources/waypoints/waypoints.min.js"></script>
+	<script src="/resources/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
+	<script src="/resources/tasc.js"></script>
 	<script>
-	  (function() {
-	    var cx = '010661457716724412487:bjhuui4xksi';
-	    var gcse = document.createElement('script');
-	    gcse.type = 'text/javascript';
-	    gcse.async = true;
-	    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-	        '//www.google.com/cse/cse.js?cx=' + cx;
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.insertBefore(gcse, s);
-	  })();
+	  
 	</script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 	<div class="container header">
 		<div class="row">
 			<div class="span3">
@@ -47,19 +41,41 @@
 					        <a href="<?= base_url() ?>">Home</a>
 					    </li>
 					    <li class="">
-					        <a href="<?= base_url() ?>">About</a>
+					        <a href="<?= base_url() ?>#aim-of-the-african-story-challenge">Aim</a>
 					    </li>
 					    <li class="">
-					        <a href="<?= base_url() ?>">Themes</a>
+					        <a href="<?= base_url() ?>#themes">Themes</a>
 					    </li>
 					    <li class="">
-					        <a href="<?= base_url() ?>">Apply</a>
+					        <a href="<?= base_url() ?>#dates">Dates</a>
 					    </li>
+					    <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Apply
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="">
+							        <a href="<?= base_url() ?>/apply">Application Form</a>
+							    </li>
+							    <li class="">
+							        <a href="<?= base_url() ?>#entry-criteria">Entry Criteria</a>
+					    		</li>
+							    <li class="">
+							        <a href="<?= base_url() ?>#application-process">Application Process</a>
+							    </li>
+							    <li class="">
+							        <a href="<?= base_url() ?>#judging-criteria">Judging Criteria</a>
+							    </li>
+							</ul>
 					    <li class="">
-					        <a href="<?= base_url() ?>">Stories</a>
+					        <a href="<?= base_url() ?>#stories">Stories</a>
 						</li>
 						<li class="">
 					        <a href="<?= base_url() ?>">Contact</a>
+						</li>
+						<li class="">
+					        <a href="<?= base_url() ?>">FAQ</a>
 						</li>
 					 </ul>
 					 </div>

@@ -1,5 +1,6 @@
 body {
   padding-top: 30px;
+  background-color: #f9f7f2;
 }
 .gsc-input-box {
   border: none !important;
@@ -18,6 +19,8 @@ body {
 .gsc-control-cse {
   height: 20px !important;
   padding: 0px !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 .search-bar {
   padding-bottom: 20px;
@@ -31,6 +34,90 @@ body {
 }
 .carousel-inner p {
   padding: 20px;
-  font-size: smaller;
+  font-size: 12pt;
   text-align: center;
+}
+.carousel-inner .img-container {
+  height: 400px;
+  overflow: hidden;
+}
+.carousel-inner img {
+  margin-top: -50%;
+  padding-top: 400px;
+}
+.lead {
+  text-align: center;
+}
+.btn {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-image: none;
+  text-shadow: none;
+  border: none;
+}
+.btn a {
+  color: #FFF;
+}
+.btn a:hover,
+.btn a:focus {
+  color: white;
+}
+.btn-primary {
+  background-color: #3c3c38;
+  color: #FFF;
+}
+.btn-primary:hover {
+  background-color: #a2a2a2;
+}
+.header .btn {
+  padding: 3px 10px;
+  background-color: #eeeeee;
+  color: #3c3c38;
+  border: 1px #999 solid;
+}
+.background1 {
+  background-color: #f9f7f2;
+}
+.background2 {
+  background-color: #f6b13b;
+  color: #FFF;
+}
+.background2 .lead {
+  border-top: 1px #FFF solid;
+  border-bottom: 1px #FFF solid;
+  padding: 20px 40px;
+  margin: 20px 0px;
+  color: #666;
+  font-size: 20pt;
+}
+.background3 {
+  background-color: #f9f7f2;
+}
+.background-peach {
+  background-color: #feddb1;
+}
+.background4 {
+  background-color: #e7593f;
+  color: #FFF;
+}
+.background5 {
+  background-color: #FFF;
+}
+.background6 {
+  background-color: #FFF;
+}
+.background7 {
+  background-color: #f1eee0;
+}
+.background8 {
+  background-color: #FFF;
+}
+.background-footer {
+  background-color: #808080;
+  color: #FFF;
+}
+.fpitem {
+  padding: 80px 0px;
 }

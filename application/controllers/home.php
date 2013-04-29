@@ -17,7 +17,8 @@
 		}
 		
 		public function index() {
-			$this->load->view("home");
+			$content = $this->tenlayer->section("home");
+			$this->load->view("home", $content);
 		}
 	}
 

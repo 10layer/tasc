@@ -1,6 +1,9 @@
 body {
 	padding-top: 30px;
+	background-color: #f9f7f2;
 }
+
+
 
 .gsc-input-box {
 	border: none !important;
@@ -21,6 +24,8 @@ body {
 .gsc-control-cse {
 	height: 20px !important;
 	padding: 0px !important;
+	background-color: transparent !important;
+	border-color: transparent !important;
 }
 
 .search-bar {
@@ -38,6 +43,60 @@ body {
 
 .carousel-inner p {
 	padding: 20px;
-	font-size: smaller;
+	font-size: 12pt;
 	text-align: center;
 }
+
+.carousel-inner .img-container {
+	height: 400px;
+	overflow: hidden;
+}
+
+.carousel-inner img {
+	margin-top: -50%;
+	padding-top: 400px;
+}
+
+.lead {
+	text-align: center;
+}
+
+.btn {
+	text-transform: uppercase;
+	
+	padding: 10px 20px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	background-image: none;
+	text-shadow: none;
+	border: none;
+	
+	a {
+		color: #FFF;
+	}
+	
+	a:hover,
+	a:focus {
+		color: white;
+	}
+	
+}
+
+.btn-primary {
+	background-color: #3c3c38;
+	color: #FFF;
+}
+
+.btn-primary:hover {
+	background-color: #a2a2a2;
+}
+
+.header .btn {
+	padding: 3px 10px;
+	background-color: #eeeeee;
+	color: #3c3c38;
+	border: 1px #999 solid;
+}
+
+@import 'backgrounds.less';
+@import 'frontpage.less';
