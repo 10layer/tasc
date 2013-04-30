@@ -8,7 +8,7 @@
  *
  */
 class TenLayer {
-	protected $apiurl="";
+	public $apiurl="";
 	protected $ci;
 	
 	public function __construct() {

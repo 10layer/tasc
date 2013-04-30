@@ -22,6 +22,9 @@ body {
   background-color: transparent !important;
   border-color: transparent !important;
 }
+.gsc-input-box {
+  background-color: transparent !important;
+}
 .search-bar {
   padding-bottom: 20px;
 }
@@ -128,4 +131,59 @@ body {
 }
 .fpitem {
   padding: 80px 0px;
+  text-align: center;
+}
+.fpitem ul,
+.fpitem ol {
+  text-align: left;
+}
+.fpitem-themes ul {
+  list-style-type: none;
+}
+.fpitem-themes ul li {
+  background-color: #f6b13b;
+  color: #000;
+  width: 290px;
+  height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+.fpitem-judging-criteria ol {
+  list-style-position: inside;
+}
+.fpitem-judging-criteria ol li {
+  color: #FFF;
+  font-size: 15pt;
+  line-height: 180%;
+  background-color: #E7593F;
+  padding: 5px 20px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.icon-round-bg {
+  background: url(/resources/images/icons/circle.png) no-repeat 0 0;
+  width: 142px;
+  height: 142px;
+  display: block;
+}
+.icons img {
+  width: 120px;
+}
+.icon-stories {
+  display: block;
+}
+.icon-stories li {
+  width: 140px;
+  height: 188px;
+  background: url(/resources/images/icons/speechbubble.png) no-repeat 0 0;
+  padding-top: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.icon-stories li img {
+  padding: 0px 25px 55px 25px;
 }

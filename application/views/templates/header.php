@@ -15,7 +15,22 @@
 	<script src="/resources/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
 	<script src="/resources/tasc.js"></script>
 	<script>
-	  
+		var apiurl = "<?= $this->tenlayer->apiurl ?>";
+		
+		$(function() {
+			$(".pop").popover({
+				html: true,
+				trigger: "hover",
+				content: function() {
+					var el = $($(this).attr("data-popup-src"));
+					return el.html();
+				}
+			});
+			
+			$.getJSON(apiurl + "/publish/section/agriculture", function(data) {
+				console.log(data.content);
+			});
+		});
 	</script>
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -40,14 +55,39 @@
 					    <li class="active">
 					        <a href="<?= base_url() ?>">Home</a>
 					    </li>
-					    <li class="">
-					        <a href="<?= base_url() ?>#aim-of-the-african-story-challenge">Aim</a>
+					    <li class="dropdown">
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+					    	<ul class="dropdown-menu">
+					    		<li class="">
+						        	<a href="<?= base_url() ?>#aim-of-the-african-story-challenge">Aim</a>
+						        </li>
+						        <li class="">
+						        	<a href="<?= base_url() ?>/page/winners">Winners</a>
+						        </li>
+						        <li class="">
+						        	<a href="/page/partners">AMI &amp; Partners</a>
+						        </li>
+						    </ul>
 					    </li>
-					    <li class="">
-					        <a href="<?= base_url() ?>#themes">Themes</a>
-					    </li>
-					    <li class="">
-					        <a href="<?= base_url() ?>#dates">Dates</a>
+					    <li class="dropdown">
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entry Info <b class="caret"></b></a>
+					    	<ul class="dropdown-menu">
+					    		<li class="">
+						        	<a href="<?= base_url() ?>#fpitem-entry-criteria">How to Enter</a>
+						        </li>
+						        <li class="">
+						        	<a href="<?= base_url() ?>#themes">Themes</a>
+						        </li>
+						        <li class="">
+						        	<a href="/page/judges">Judges</a>
+						        </li>
+						        <li class="">
+						        	<a href="/page/faq">FAQ</a>
+						        </li>
+						        <li class="">
+						        	<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
+						        </li>
+						    </ul>
 					    </li>
 					    <li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -59,23 +99,34 @@
 							        <a href="<?= base_url() ?>/apply">Application Form</a>
 							    </li>
 							    <li class="">
-							        <a href="<?= base_url() ?>#entry-criteria">Entry Criteria</a>
+							        <a href="<?= base_url() ?>#dates">Key Dates</a>
 					    		</li>
-							    <li class="">
-							        <a href="<?= base_url() ?>#application-process">Application Process</a>
+							</ul>
+						</li>
+					    <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Stories
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="">
+							        <a href="<?= base_url() ?>/blog">Blog</a>
 							    </li>
 							    <li class="">
-							        <a href="<?= base_url() ?>#judging-criteria">Judging Criteria</a>
+							        <a href="<?= base_url() ?>/examples">Examples</a>
+					    		</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Contact
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="">
+							        <a href="<?= base_url() ?>page/team">Team</a>
 							    </li>
 							</ul>
-					    <li class="">
-					        <a href="<?= base_url() ?>#stories">Stories</a>
-						</li>
-						<li class="">
-					        <a href="<?= base_url() ?>">Contact</a>
-						</li>
-						<li class="">
-					        <a href="<?= base_url() ?>">FAQ</a>
 						</li>
 					 </ul>
 					 </div>

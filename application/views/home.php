@@ -55,8 +55,8 @@
 		<a name="<?= $el->_id ?>"></a>
 		<div class=" background<?= $x ?>">
 			<div class="container">
-				<div class="row fpitem">
-					<div class="span8 offset2">
+				<div class="row fpitem fpitem-<?= $el->_id ?>">
+					<div class="span10 offset1">
 						<h1><?= $el->title ?></h1>
 						<?= $el->body ?>
 					</div>
