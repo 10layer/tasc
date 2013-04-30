@@ -27,9 +27,9 @@
 				}
 			});
 			
-			$.getJSON(apiurl + "/publish/section/agriculture", function(data) {
+			/*$.getJSON(apiurl + "/publish/section/agriculture", function(data) {
 				console.log(data.content);
-			});
+			});*/
 		});
 	</script>
 </head>
