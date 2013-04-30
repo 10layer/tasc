@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Arvo:300,700,400italic);
 body {
   padding-top: 30px;
   background-color: #f9f7f2;
+  font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+}
+h1,
+h2,
+h3,
+h4,
+.lead,
+.btn,
+.nav {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .gsc-input-box {
   border: none !important;
