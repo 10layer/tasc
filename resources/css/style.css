@@ -158,8 +158,11 @@ body {
   line-height: 180%;
   background-color: #E7593F;
   padding: 5px 20px;
-  height: 35px;
+  min-height: 35px;
   margin-bottom: 10px;
+}
+.fpitem-judging-criteria ol li p {
+  display: inline;
 }
 .icon-round-bg {
   background: url(/resources/images/icons/circle.png) no-repeat 0 0;
