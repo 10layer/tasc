@@ -49,7 +49,7 @@
 					<div class="span7"><gcse:search></gcse:search></div>
 				</div>
 				<div class="row">
-				<div class="navbar navbar-inverse">
+				<div class="navbar">
 					<div class="navbar-inner">
 					<ul class="nav">
 					    <li class="active">

@@ -14,6 +14,15 @@ h4,
 .nav {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.navbar .navbar-inner {
+  background: none;
+  background-color: rgba(249, 247, 242, 0.9);
+  border: none;
+}
+.navbar .navbar-inner .active a {
+  background-color: #fdab3b;
+  color: #FFF;
+}
 .gsc-input-box {
   border: none !important;
 }
