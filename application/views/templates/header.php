@@ -59,13 +59,13 @@
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="">
-						        	<a href="<?= base_url() ?>#aim-of-the-african-story-challenge">Aim</a>
+						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
 						        </li>
 						        <li class="">
-						        	<a href="<?= base_url() ?>/page/winners">Winners</a>
+						        	<a href="/page/winners">Winners</a>
 						        </li>
 						        <li class="">
-						        	<a href="/page/partners">AMI &amp; Partners</a>
+						        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
 						        </li>
 						    </ul>
 					    </li>
@@ -73,16 +73,16 @@
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entry Info <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="">
-						        	<a href="<?= base_url() ?>#fpitem-entry-criteria">How to Enter</a>
+						        	<a href="/page/how-to-enter">How to Enter</a>
 						        </li>
 						        <li class="">
-						        	<a href="<?= base_url() ?>#themes">Themes</a>
+						        	<a href="/page/themes">Themes</a>
 						        </li>
 						        <li class="">
 						        	<a href="/page/judges">Judges</a>
 						        </li>
 						        <li class="">
-						        	<a href="/page/faq">FAQ</a>
+						        	<a href="/page/frequently-asked-questions">FAQ</a>
 						        </li>
 						        <li class="">
 						        	<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
@@ -99,7 +99,7 @@
 							        <a href="<?= base_url() ?>/apply">Application Form</a>
 							    </li>
 							    <li class="">
-							        <a href="<?= base_url() ?>#dates">Key Dates</a>
+							        <a href="/page/dates">Key Dates</a>
 					    		</li>
 							</ul>
 						</li>
@@ -124,7 +124,10 @@
 							</a>
 							<ul class="dropdown-menu">
 								<li class="">
-							        <a href="<?= base_url() ?>page/team">Team</a>
+							        <a href="/page/contact">Contact Details</a>
+							    </li>
+								<li class="">
+							        <a href="/page/the-team">The Team</a>
 							    </li>
 							</ul>
 						</li>

@@ -83,6 +83,7 @@ body {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-top: 40px;
 }
 .footer a {
   color: #999;
@@ -137,22 +138,26 @@ body {
 .fpitem ol {
   text-align: left;
 }
-.fpitem-themes ul {
+.fpitem h1 {
+  margin-bottom: 20px;
+}
+.fpitem-2013-04-30-the-competition-has-x-themes ul {
   list-style-type: none;
 }
-.fpitem-themes ul li {
+.fpitem-2013-04-30-the-competition-has-x-themes ul li {
   background-color: #f6b13b;
   color: #000;
-  width: 290px;
+  width: 400px;
   height: 40px;
   margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
+  margin-left: 200px;
 }
-.fpitem-judging-criteria ol {
+.fpitem-2013-04-30-judging-criteria ol {
   list-style-position: inside;
 }
-.fpitem-judging-criteria ol li {
+.fpitem-2013-04-30-judging-criteria ol li {
   color: #FFF;
   font-size: 15pt;
   line-height: 180%;
@@ -161,7 +166,7 @@ body {
   min-height: 35px;
   margin-bottom: 10px;
 }
-.fpitem-judging-criteria ol li p {
+.fpitem-2013-04-30-judging-criteria ol li p {
   display: inline;
 }
 .icon-round-bg {
