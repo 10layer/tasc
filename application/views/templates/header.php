@@ -96,7 +96,7 @@
 							</a>
 							<ul class="dropdown-menu">
 								<li class="">
-							        <a href="<?= base_url() ?>/apply">Application Form</a>
+							        <a href="/apply">Application Form</a>
 							    </li>
 							    <li class="">
 							        <a href="/page/dates">Key Dates</a>

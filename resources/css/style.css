@@ -1,9 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300|Arvo:300,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700|Arvo:400,700,400italic);
 body {
   padding-top: 30px;
   background-color: #f9f7f2;
   font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 11pt;
+  font-weight: 100;
 }
 h1,
 h2,
@@ -13,10 +14,11 @@ h4,
 .btn,
 .nav {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 .navbar .navbar-inner {
   background: none;
-  background-color: rgba(249, 247, 242, 0.9);
+  background-color: #f9f7f2;
   border: none;
 }
 .navbar .navbar-inner .active a {
@@ -74,6 +76,7 @@ h4,
 }
 .btn {
   text-transform: uppercase;
+  background-color: #DDD;
   padding: 10px 20px;
   letter-spacing: 2px;
   cursor: pointer;
@@ -215,4 +218,7 @@ h4,
 }
 .icon-stories li img {
   padding: 0px 25px 55px 25px;
+}
+textarea {
+  height: 300px;
 }

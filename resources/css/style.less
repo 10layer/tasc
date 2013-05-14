@@ -1,20 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300|Arvo:300,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700|Arvo:400,700,400italic);
 
 body {
 	padding-top: 30px;
 	background-color: #f9f7f2;
 	font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 11pt;
+	font-weight: 100;
 }
 
 h1, h2, h3, h4, .lead, .btn, .nav {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+	font-weight: 300;
 }
 
 .navbar .navbar-inner {
 	background: none;
-	background-color: rgba(249, 247, 242, 0.9);
+	background-color: rgba(249, 247, 242, 1);
 	border: none;
 	.active a {
 		background-color: #fdab3b;
@@ -84,7 +85,7 @@ h1, h2, h3, h4, .lead, .btn, .nav {
 
 .btn {
 	text-transform: uppercase;
-	
+	background-color: #DDD;
 	padding: 10px 20px;
 	letter-spacing: 2px;
 	cursor: pointer;
@@ -131,3 +132,4 @@ h1, h2, h3, h4, .lead, .btn, .nav {
 @import 'backgrounds.less';
 @import 'frontpage.less';
 @import 'icons.less';
+@import 'forms.less';
