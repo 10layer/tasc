@@ -3,7 +3,7 @@
 ?>
 <div class="container body">
 <div class="lead">
-	<p>The African Story Challenge (TASC) is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.</p>
+	<p>The African Story Challenge is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.</p>
 	<div class="row">
 		<div class="span12">
 			<div id="myCarousel" class="carousel slide">

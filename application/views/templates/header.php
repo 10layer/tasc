@@ -59,11 +59,14 @@
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="">
+					    			<?= anchor("/page/about", "About The African Story Challenge") ?>
+					    		</li>
+					    		<li class="">
 						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
 						        </li>
-						        <li class="">
+						        <!-- <li class="">
 						        	<a href="/page/winners">Winners</a>
-						        </li>
+						        </li> -->
 						        <li class="">
 						        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
 						        </li>
@@ -99,7 +102,7 @@
 							        <a href="/apply">Application Form</a>
 							    </li>
 							    <li class="">
-							        <a href="/page/dates">Key Dates</a>
+							        <a href="/page/key-dates">Key Dates</a>
 					    		</li>
 							</ul>
 						</li>
