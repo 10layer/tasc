@@ -64,6 +64,21 @@ class TenLayer {
 		}
 		return $result->content->zones;
 	}
+
+	public function describe($content_type) {
+		try {
+			$result=json_decode(file_get_contents($this->apiurl."content/blank?content_type=$content_type&meta=true"));
+			if (empty($result)) {
+				return false;
+			}
+		} catch(Exception $e) {
+			return false;
+		}
+		if ($result->error) {
+			return false;
+		}
+		return $result->meta;
+	}
 	
 	public function nid_to_url($nid) {
 		$api_key = $this->ci->config->item("api_key");

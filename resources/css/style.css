@@ -227,3 +227,6 @@ h4,
 textarea {
   height: 300px;
 }
+.btn-submit {
+  margin-top: 40px;
+}
