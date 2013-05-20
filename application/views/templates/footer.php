@@ -9,7 +9,8 @@ partnership with the <a target="_blank" href="http://www.icfj.org/">Internationa
 					<p>
 						Email: <a href="mailto:info@theafricanstorychallenge.org">info@theafricanstorychallenge.org</a><br />
 						Facebook: <a target="_blank" href="http://www.facebook.com/AfricanStoryChallenge">AfricanStoryChallenge</a><br />
-						Twitter: <br />
+						Twitter: <a target="_blank" href="https://twitter.com/storychallenge">@StoryChallenge</a><br />
+						Google Plus: <a target="_blank" href="https://plus.google.com/communities/105613979636196049691">African Story Challenge Community</a><br />
 						Tel:  +254 788 279 091<br />
 					</p>
 				</div>
