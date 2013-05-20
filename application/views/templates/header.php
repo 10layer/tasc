@@ -48,31 +48,78 @@
 					</div>
 					<div class="span7"><gcse:search></gcse:search></div>
 				</div>
+				
 				<div class="row">
+					<?php
+						$uri = $this->uri->segment($this->uri->total_segments() );
+						if (empty($uri)) {
+							$uri = "home";
+						}
+					?>
 				<div class="navbar">
 					<div class="navbar-inner">
 					<ul class="nav">
-					    <li class="active">
+					    <li class="<?= ($uri == "home") ? 'active' : '' ?>">
 					        <a href="<?= base_url() ?>">Home</a>
 					    </li>
+					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
+							<a href="/apply">Apply</a>
+						</li>
+						<li class="<?= ($uri == "key-dates") ? 'active' : '' ?>">
+							<a href="/page/key-dates">Key Dates</a>
+						</li>
+						<li class="<?= ($uri == "themes") ? 'active' : '' ?>">
+							<a href="/page/themes">Themes</a>
+						</li>
+					    <!-- <li class="">
+					    	<?= anchor("/page/about", "About") ?>
+					    </li> -->
+					    <!-- <li class="">
+							<a href="/page/the-challenge-organisers">Organisers</a>
+						</li> -->
+						<li class="<?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+							<a href="/page/how-to-enter">How to Enter</a>
+						</li>
+						
+						<!-- <li class="">
+							<a href="/page/judges">Judges</a>
+						</li> -->
+						<!-- <li class="">
+							<a href="/page/frequently-asked-questions">FAQ</a>
+						</li> -->
+						<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
+							<a href="/page/terms-and-conditions">T&amp;Cs</a>
+						</li>
 					    <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="">
 					    			<?= anchor("/page/about", "About The African Story Challenge") ?>
 					    		</li>
-					    		<li class="">
+					    		<!-- <li class="">
 						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
-						        </li>
+						        </li> -->
 						        <!-- <li class="">
 						        	<a href="/page/winners">Winners</a>
 						        </li> -->
 						        <li class="">
 						        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
 						        </li>
+						        <li class="">
+									<a href="/page/judges">The Challenge Judges</a>
+								</li>
+								<li class="">
+									<a href="/page/frequently-asked-questions">Frequently-Asked Questions</a>
+								</li>
+								<li class="">
+							        <a href="/page/contact">Contact Details</a>
+							    </li>
+								<li class="">
+							        <a href="/page/the-team">The Team</a>
+							    </li>
 						    </ul>
 					    </li>
-					    <li class="dropdown">
+					    <!-- <li class="dropdown">
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entry Info <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="">
@@ -105,8 +152,8 @@
 							        <a href="/page/key-dates">Key Dates</a>
 					    		</li>
 							</ul>
-						</li>
-					    <li class="dropdown">
+						</li> -->
+					    <!-- <li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 								Stories
 								<b class="caret"></b>
@@ -119,8 +166,8 @@
 							        <a href="<?= base_url() ?>/examples">Examples</a>
 					    		</li>
 							</ul>
-						</li>
-						<li class="dropdown">
+						</li> -->
+						<!-- <li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 								Contact
 								<b class="caret"></b>
@@ -133,7 +180,7 @@
 							        <a href="/page/the-team">The Team</a>
 							    </li>
 							</ul>
-						</li>
+						</li> -->
 					 </ul>
 					 </div>
 			    </div>
