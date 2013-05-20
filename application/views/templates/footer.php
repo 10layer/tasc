@@ -1,4 +1,5 @@
 	<div class="footer">
+		<div class="shadow-down"></div>
 		<div class="container">
 			<div class="row">
 				<div class="span5">

@@ -42,9 +42,9 @@
 			<div class="span9">
 				<div class="row search-bar">
 					<div class="span2">
-						<a href="#" class="btn"><i class="icon-twitter"></i></a>
-						<a href="#" class="btn"><i class="icon-facebook"></i></a>
-						<a href="#" class="btn"><i class="icon-google-plus"></i></a>
+						<a target="_blank" href="https://twitter.com/storychallenge" class="btn"><i class="icon-twitter"></i></a>
+						<a target="_blank" href="http://www.facebook.com/AfricanStoryChallenge" class="btn"><i class="icon-facebook"></i></a>
+						<a target="_blank" href="https://plus.google.com/communities/105613979636196049691" class="btn"><i class="icon-google-plus"></i></a>
 					</div>
 					<div class="span7"><gcse:search></gcse:search></div>
 				</div>

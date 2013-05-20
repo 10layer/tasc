@@ -16,6 +16,9 @@ h4,
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
+.page {
+  padding-bottom: 80px;
+}
 .page h1 {
   border-bottom: 1px #000 solid;
   padding-bottom: 10px;
@@ -110,12 +113,30 @@ h4,
   border: 1px #999 solid;
 }
 .footer {
-  padding-top: 100px;
   padding-bottom: 100px;
-  margin-top: 40px;
+}
+.footer .container {
+  padding-top: 100px;
 }
 .footer a {
   color: #999;
+}
+.paddeditem {
+  padding: 80px 0px;
+}
+.paddeditem h1 {
+  margin-bottom: 20px;
+}
+.inverse a {
+  color: #999;
+}
+.img-blurb {
+  height: 180px;
+  overflow: hidden;
+}
+.img-blurb h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .background1 {
   background-color: #f9f7f2;
@@ -132,6 +153,14 @@ h4,
   color: #666;
   font-size: 20pt;
 }
+.background2 .shadow-down {
+  height: 27px;
+  background: url(/resources/images/shadow-down.png) repeat-x 0 0;
+}
+.background2 .shadow-up {
+  height: 27px;
+  background: url(/resources/images/shadow-up.png) repeat-x 0 0;
+}
 .background3 {
   background-color: #f9f7f2;
 }
@@ -142,6 +171,14 @@ h4,
   background-color: #e7593f;
   color: #FFF;
 }
+.background4 .shadow-down {
+  height: 27px;
+  background: url(/resources/images/shadow-down.png) repeat-x 0 0;
+}
+.background4 .shadow-up {
+  height: 27px;
+  background: url(/resources/images/shadow-up.png) repeat-x 0 0;
+}
 .background5 {
   background-color: #FFF;
 }
@@ -149,15 +186,31 @@ h4,
   background-color: #0066ac;
   color: #FFF;
 }
+.background6 .shadow-down {
+  height: 27px;
+  background: url(/resources/images/shadow-down.png) repeat-x 0 0;
+}
+.background6 .shadow-up {
+  height: 27px;
+  background: url(/resources/images/shadow-up.png) repeat-x 0 0;
+}
 .background7 {
   background-color: #f1eee0;
 }
 .background8 {
   background-color: #f9f7f2;
 }
+.background8 .shadow-down {
+  height: 27px;
+  background: url(/resources/images/shadow-down.png) repeat-x 0 0;
+}
 .footer {
   background-color: #3c3c38;
   color: #FFF;
+}
+.footer .shadow-down {
+  height: 27px;
+  background: url(/resources/images/shadow-down.png) repeat-x 0 0;
 }
 .fpitem {
   padding: 80px 0px;

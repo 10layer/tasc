@@ -11,6 +11,8 @@
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
 				</ol>
 				<!-- Carousel items -->
 				<div class="carousel-inner">
@@ -25,9 +27,10 @@
 						<div class="img-container">
 						    <img src="<?= $el->image ?>" />
 					    </div>
-					    <p class="inverse">
-					    	<strong><?= $el->title ?></strong> <?= $el->blurb ?>
-					    </p>
+					    <div class="inverse img-blurb">
+					    	<h3><?= $el->title ?></h3>
+					    	<p><?= $el->blurb ?></p>
+					    </div>
 					</div>
 				<?php
 					$active = "";
@@ -54,6 +57,7 @@
 		?>
 		<a name="<?= $el->_id ?>"></a>
 		<div class=" background<?= $x ?>">
+			<div class="shadow-down"></div>
 			<div class="container">
 				<div class="row fpitem fpitem-<?= $el->_id ?>">
 					<div class="span10 offset1">
@@ -62,6 +66,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="shadow-up"></div>
 		</div>
 		
 		<?php
