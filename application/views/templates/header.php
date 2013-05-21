@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
 	<script src="/resources/jquery/jquery-1.9.1.min.js"></script>
 	<script src="/resources/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/resources/modernizr/modernizr.js"></script>
+	<!-- <script src="/resources/modernizr/modernizr.js"></script> -->
 	<script src="/resources/waypoints/waypoints.min.js"></script>
 	<script src="/resources/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
 	<script src="/resources/tasc.js"></script>
@@ -80,16 +80,16 @@
 						<li class="<?= ($uri == "how-to-enter") ? 'active' : '' ?>">
 							<a href="/page/how-to-enter">How to Enter</a>
 						</li>
-						
+						<li class="<?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
+							<a href="/page/frequently-asked-questions">FAQ</a>
+						</li>
 						<!-- <li class="">
 							<a href="/page/judges">Judges</a>
 						</li> -->
 						<!-- <li class="">
 							<a href="/page/frequently-asked-questions">FAQ</a>
 						</li> -->
-						<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
-							<a href="/page/terms-and-conditions">T&amp;Cs</a>
-						</li>
+						
 					    <li class="dropdown">
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
@@ -108,8 +108,9 @@
 						        <li class="">
 									<a href="/page/judges">The Challenge Judges</a>
 								</li>
-								<li class="">
-									<a href="/page/frequently-asked-questions">Frequently-Asked Questions</a>
+								
+								<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
+									<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
 								</li>
 								<li class="">
 							        <a href="/page/contact">Contact Details</a>
