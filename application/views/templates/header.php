@@ -8,29 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/fontawesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
-	<script src="/resources/jquery/jquery-1.9.1.min.js"></script>
-	<script src="/resources/bootstrap/js/bootstrap.min.js"></script>
-	<!-- <script src="/resources/modernizr/modernizr.js"></script> -->
-	<script src="/resources/waypoints/waypoints.min.js"></script>
-	<script src="/resources/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
-	<script src="/resources/tasc.js"></script>
 	<script>
 		var apiurl = "<?= $this->tenlayer->apiurl ?>";
-		
-		$(function() {
-			$(".pop").popover({
-				html: true,
-				trigger: "hover",
-				content: function() {
-					var el = $($(this).attr("data-popup-src"));
-					return el.html();
-				}
-			});
-			
-			/*$.getJSON(apiurl + "/publish/section/agriculture", function(data) {
-				console.log(data.content);
-			});*/
-		});
 	</script>
 	<script>
 	//Google Analytics

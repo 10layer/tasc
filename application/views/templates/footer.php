@@ -42,5 +42,11 @@ partnership with the <a target="_blank" href="http://www.icfj.org/">Internationa
 			</div>
 		</div>
 	</div>
+	<script src="/resources/jquery/jquery-1.9.1.min.js"></script>
+	<script src="/resources/bootstrap/js/bootstrap.min.js"></script>
+	<!-- <script src="/resources/modernizr/modernizr.js"></script> -->
+	<script src="/resources/waypoints/waypoints.min.js"></script>
+	<script src="/resources/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
+	<script src="/resources/tasc-ck.js"></script>
 </body>
 </html>
