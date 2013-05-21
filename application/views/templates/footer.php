@@ -21,8 +21,24 @@ partnership with the <a target="_blank" href="http://www.icfj.org/">Internationa
 					</ul> -->
 
 					<a target="_blank" href="http://africanmediainitiative.org/"><img src="/resources/images/partners/ami.png" /></a>
-					<a target="_blank" href="http://www.icfj.org/"><img src="/resources/images/partners/icfj.png" /></a>
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12 offset2">
+				<h3>Partners</h3>
+			</div>
+			<div class="span3 offset2">
+				<a target="_blank" href="http://www.icfj.org/"><img src="/resources/images/partners/icfj.png" /></a>
+			</div>
+			<div class="span3 ">
+				<a target="_blank" href="http://www.gatesfoundation.org/"><img src="/resources/images/partners/gates-foundation.png" /></a>
+			</div>
+			<div class="span3 ">
+				<a target="_blank" href="http://www.agra.org/"><img src="/resources/images/partners/agra.png" /></a>
+			</div>
+			<div class="span3 ">
+				<a target="_blank" href="http://www.afdb.org/"><img src="/resources/images/partners/afdb.png" /></a>
 			</div>
 		</div>
 	</div>
