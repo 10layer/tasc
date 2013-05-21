@@ -296,7 +296,10 @@ h4,
   padding: 0px 25px 55px 25px;
 }
 textarea {
-  height: 300px;
+  height: 200px;
+}
+.postal {
+  height: 100px;
 }
 .btn-submit {
   margin-top: 40px;
