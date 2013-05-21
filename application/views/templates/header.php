@@ -47,7 +47,7 @@
 	<div class="container header">
 		<div class="row">
 			<div class="span3">
-				<a class="brand" href="<?= base_url() ?>"><img alt="The African Story Challenge" src="/resources/images/logo.png" alt="" /></a>
+				<a class="brand" href="<?= base_url() ?>"><img alt="The African Story Challenge" src="/resources/images/logo.png" /></a>
 			</div>
 			<div class="span9">
 				<div class="row search-bar">
