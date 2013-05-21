@@ -222,6 +222,9 @@ h4,
   background-color: rgba(9, 9, 9, 0.5);
   position: absolute;
 }
+.carousel-inner .img-blurb a {
+  color: #CCC;
+}
 @-webkit-keyframes slideup {
   from {
     margin-top: -45px;

@@ -14,7 +14,7 @@ $(function() {
 		stuckClass: 'navbar-fixed-top'
 	});
 
-	$('.carousel-inner').hover(
+	$('#myCarousel').hover(
 		function() {
 			$('.img-blurb').animate({ marginTop: "-180px" });
 		}, 
