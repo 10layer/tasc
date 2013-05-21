@@ -94,7 +94,7 @@
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info <b class="caret"></b></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="">
-					    			<?= anchor("/page/about", "About The African Story Challenge") ?>
+					    			<a href="/page/about">About The African Story Challenge</a>
 					    		</li>
 					    		<!-- <li class="">
 						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
