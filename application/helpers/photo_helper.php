@@ -16,7 +16,7 @@
 		if (!is_dir($reldir)) {
 			$result=mkdir($reldir, 0755, true);
 		}
-		exec("convert '.{$url}' -resize {$width}x{$height}^ -quality 80 -gravity center -extent {$width}x{$height} '$relname'", $result);
+		exec("convert '.{$url}' -resize {$width}x{$height}^ -quality 60 -gravity center -extent {$width}x{$height} '$relname'", $result);
 		return $filename;
 	}
 
