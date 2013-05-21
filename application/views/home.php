@@ -25,7 +25,7 @@
 				?>
 					<div class="item <?= $active ?>">
 						<div class="img-container">
-						    <img src="<?= $el->image ?>" />
+						    <img alt="<?= $el->title ?>" src="<?= $el->image ?>" />
 					    </div>
 					    <div class="img-blurb">
 					    	<h3><?= $el->title ?></h3>
