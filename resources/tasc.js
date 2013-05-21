@@ -13,4 +13,13 @@ $(function() {
 	$('.navbar').waypoint('sticky', {
 		stuckClass: 'navbar-fixed-top'
 	});
+
+	$('.carousel-inner').hover(
+		function() {
+			$('.img-blurb').animate({ marginTop: "-180px" });
+		}, 
+		function() {
+			$('.img-blurb').animate({ marginTop: "-45px" });
+		}
+	);
 });

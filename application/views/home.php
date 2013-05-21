@@ -27,7 +27,7 @@
 						<div class="img-container">
 						    <img src="<?= $el->image ?>" />
 					    </div>
-					    <div class="inverse img-blurb">
+					    <div class="img-blurb">
 					    	<h3><?= $el->title ?></h3>
 					    	<p><?= $el->blurb ?></p>
 					    </div>
