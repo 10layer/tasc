@@ -1,0 +1,23 @@
+/* TEAM */
+	Code monkey: Jason Norwood-Young
+	Contact: jason [at] 10layer.com
+	Twitter: @j_norwood_young
+	Site: http://10layer.com
+	From: Kommetjie, Cape Town, South Africa
+
+	Designer: Gillian Benjamin
+	Twitter: @Gill_Benjamin
+	Site: http://www.make-content.com/
+	From: Cape Town, South Africa
+
+	Content development director: Joseph Warungu
+	From: Nairobi, Kenya
+
+	Senior programme manager: Maimouna Jallow
+	From: Nairobi, Kenya
+
+/* SITE */
+	Last update:2013/05/22
+	Language: English
+	Doctype:HTML5
+	IDE: Sublime Text, Coda, Git, Photoshop
