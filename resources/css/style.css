@@ -223,6 +223,7 @@ h4,
   color: #FFF;
   background-color: rgba(9, 9, 9, 0.5);
   position: absolute;
+  text-align: center;
 }
 .carousel-inner .img-blurb a {
   color: #CCC;
