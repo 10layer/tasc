@@ -44,7 +44,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="span3 offset4">
+		<div class="span3 offset4 center">
 			<a class="btn btn-primary">Entry Form</a>
 		</div>
 	</div>
