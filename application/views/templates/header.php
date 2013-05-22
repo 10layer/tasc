@@ -54,6 +54,9 @@
 					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
 							<a href="/apply">Apply</a>
 						</li>
+						<li class="<?= ($uri == "news") ? 'active' : '' ?>">
+							<a href="/news">News</a>
+						</li>
 						<li class="<?= ($uri == "key-dates") ? 'active' : '' ?>">
 							<a href="/page/key-dates">Key Dates</a>
 						</li>
@@ -72,6 +75,7 @@
 						<li class="<?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
 							<a href="/page/frequently-asked-questions">FAQ</a>
 						</li>
+						
 						<!-- <li class="">
 							<a href="/page/judges">Judges</a>
 						</li> -->
