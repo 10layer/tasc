@@ -14,7 +14,7 @@
 	<?php
 	}
 	?>
-	<form method="post">
+	<form method="post" enctype="multipart/form-data">
 		<input name="action" value="insert" type="hidden" />
 		<fieldset>
 			<!-- <legend>Legend</legend> -->

@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://local.tasc.org/" />
-<title>Form apply</title>
+<title>Form apply new</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Form apply</td></tr>
+<tr><td rowspan="1" colspan="3">Form apply new</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -27,19 +27,24 @@
 	<td>Norwood-Young</td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>name=sex</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>name=email</td>
-	<td>jason@10layer.com</td>
+	<td>jason@freespeechpub.co.za</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=postal</td>
-	<td>20 Duiker Drive<br />Kommetjie<br />7976<br />Cape Town<br />South Africa</td>
+	<td>20 Duiker Drive<br />Kommetjie<br />7976</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=telephone</td>
-	<td>+27-84-680-3445</td>
+	<td>084-680-3445</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -52,8 +57,13 @@
 	<td>South Africa</td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>name=language</td>
+	<td>English</td>
+</tr>
+<tr>
 	<td>click</td>
-	<td>xpath=(//input[@name='employment_type'])[2]</td>
+	<td>name=employment_type</td>
 	<td></td>
 </tr>
 <tr>
@@ -64,7 +74,7 @@
 <tr>
 	<td>type</td>
 	<td>name=job_title</td>
-	<td>CEO</td>
+	<td>Boss</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -74,22 +84,12 @@
 <tr>
 	<td>type</td>
 	<td>name=cv</td>
-	<td>/Volumes/Macintosh HD/Users/jason/Documents/Backup/archive/2001/2001/CV - Jason Norwood-Young.doc</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=entry_theme</td>
-	<td>label=Diseases: Prevention and Treatment (this theme will open for competition on: 6th August 2013)</td>
+	<td>/Volumes/Macintosh HD/Users/jason/Documents/Backup/Personal/CV Jason Norwood-Young.pdf</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=pitch</td>
-	<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus eros, dictum in convallis eget, convallis malesuada dui. Vestibulum sodales odio non urna fermentum feugiat. Suspendisse potenti. Vivamus non ultrices est. Nunc luctus semper consequat. Phasellus id urna eros. Aliquam mi dui, aliquam ac scelerisque eu, ullamcorper nec libero. Ut hendrerit interdum leo porttitor euismod. Aliquam eu tortor ut dui consectetur suscipit eget sit amet quam. Ut pretium enim sit amet lacus iaculis vel lacinia sem eleifend. Sed malesuada accumsan lectus quis suscipit. Nulla facilisi.<br /><br />Vestibulum interdum nisi a arcu blandit aliquam. Donec porta sem at augue lobortis mattis. Mauris et dolor purus. Morbi leo enim, rhoncus quis dignissim quis, vestibulum non libero. Praesent sit amet elit mauris, eu viverra metus. Donec turpis dui, placerat et fermentum sodales, tristique ut velit. Suspendisse potenti. Suspendisse ornare condimentum pellentesque. Donec sed mi augue.<br /><br />Curabitur at libero ac dolor dapibus rhoncus. Suspendisse pretium dui non ipsum porta aliquam. Nulla neque risus, adipiscing vel sollicitudin ac, porta eget tellus. Aenean aliquet commodo fermentum. Donec accumsan condimentum justo egestas gravida. Integer ut tellus quis justo imperdiet commodo in laoreet sapien. Maecenas at varius ante. Mauris eget cursus lacus. Mauris a viverra sapien. Suspendisse quis nulla et sapien varius auctor.<br /><br />Fusce imperdiet commodo quam ac vulputate. Maecenas dictum tellus odio. Nullam at lectus vel lectus porta lobortis non nec risus. Nunc ac tortor ipsum, quis mattis orci. Integer hendrerit luctus mauris, quis suscipit ipsum aliquam nec. Aliquam egestas pellentesque eleifend. Integer ac nulla nec enim sollicitudin ultrices. Donec posuere mattis tempus. Nunc facilisis dui non quam iaculis eget pretium sapien dictum.<br /><br />Maecenas interdum condimentum lacinia. Nulla aliquam luctus elit, a tristique nibh dictum vel. Duis diam velit, malesuada non mollis nec, ultrices nec nibh. Vivamus elit mi, varius sed pellentesque blandit, tempus quis orci. Donec ligula tortor, suscipit a posuere porttitor, rhoncus sed mauris. Sed eleifend placerat risus dapibus volutpat. Vivamus condimentum tincidunt quam, in gravida sapien fringilla vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non massa magna, vel imperdiet lorem. Phasellus ut neque ante, ut interdum erat. Quisque placerat tellus eu neque sagittis sed varius nunc imperdiet. In pretium, libero quis viverra facilisis, tellus sem tempor tellus, ut viverra est neque sit amet tortor. Pellentesque non dolor sed elit sollicitudin sodales tristique vel lectus.</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=platform</td>
-	<td>label=Radio package</td>
+	<td>Lorizzle mofo dolizzle shizzle my nizzle crocodizzle amet, consectetizzle adipiscing check it out. Nullizzle sapien velit, ass volutpat, suscipit quizzle, gravida vizzle, break it down. Pellentesque i'm in the shizzle tortor. Sed erizzle. Dang izzle dawg get down get down boom shackalack tempizzle gizzle. Maurizzle pellentesque nibh get down get down turpizzle. Yippiyo tortor. Pellentesque gizzle rhoncizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle. In hac shizzle my nizzle crocodizzle platea dictumst. Boofron dapibizzle. Curabitur own yo' yo, pretizzle bow wow wow, boofron mah nizzle, eleifend sizzle, nunc. Rizzle get down get down. Integer shiznit velit sed crazy.<br /><br />Vivamizzle nec ghetto fo shizzle shizzle my nizzle crocodizzle daahng dawg pretizzle. Vivamus mah nizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle lacizzle. Crunk eu that's the shizzle sheezy lacus shit crazy. Praesent suscipit viverra shiz. Curabitizzle in arcu. Yo mamma shiznit enim, for sure i saw beyonces tizzles and my pizzle went crizzle, congue eu, dignissizzle break it down, fo shizzle mah nizzle fo rizzle, mah home g-dizzle. Nullam vitae yo mamma nizzle shiz posuere boofron. Quisque pede tortor, for sure pulvinizzle, auctor dawg, funky fresh sizzle amet, erat. The bizzle izzle dui. Check it out risus shizznit, elementizzle stuff, own yo' dawg, phat funky fresh, boom shackalack. Own yo' a fo shizzle mah nizzle fo rizzle, mah home g-dizzle shut the shizzle up gizzle shiznit gangster. Hizzle accumsan check out this ipsum. Pellentesque habitant morbi tristique nizzle izzle that's the shizzle mofo shizzle my nizzle crocodizzle fames shit turpizzle egestas. In est. Curabitizzle elementizzle. Ut tellivizzle felizzle, shit its fo rizzle, suscipit izzle, fo shizzle my nizzle pulvinizzle, nisl. Nulla sagittis gravida own yo'.</td>
 </tr>
 <tr>
 	<td>select</td>
@@ -99,62 +99,67 @@
 <tr>
 	<td>type</td>
 	<td>name=story_title</td>
-	<td>Vestibulum interdum nisi a arcu blandit aliquam</td>
+	<td>Nizzle rizzle elizzle izzle that's the shizzle phat tincidunt</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=storyline</td>
-	<td>Curabitur at libero ac dolor dapibus rhoncus. Suspendisse pretium dui non ipsum porta aliquam. Nulla neque risus, adipiscing vel sollicitudin ac, porta eget tellus. Aenean aliquet commodo fermentum. Donec accumsan condimentum justo egestas gravida. Integer ut tellus quis justo imperdiet commodo in laoreet sapien. Maecenas at varius ante. Mauris eget cursus lacus. Mauris a viverra sapien. Suspendisse quis nulla et sapien varius auctor.</td>
+	<td>Shizzlin dizzle a break it down sizzle augue shizzlin dizzle accumsizzle. Aenean izzle est. Vivamizzle break it down dolizzle, viverra vitae, hizzle izzle, boom shackalack izzle, nizzle. Owned ante ipsizzle fo shizzle izzle faucibizzle orci luctus gangsta ultricizzle posuere own yo' Daahng dawg; Donizzle dolizzle. My shizz faucibizzle. Maecenizzle da bomb blandit quizzle. Vivamus rutrizzle aliquizzle orci. Sed facilisizzle. Go to hizzle sem that's the shizzle, venenatis pizzle, gangsta vizzle, blandizzle shiznit, brizzle.<br /><br />Fo shizzle tellus owned, pulvinar i'm in the shizzle, yo mah nizzle, vehicula pizzle, dizzle. Check out this shizznit leo a shizznit hendrerizzle mattizzle. Pellentesque interdum magna izzle erizzle black ullamcorpizzle. Etizzle lobortis fizzle ligula. Morbi shizzle my nizzle crocodizzle. Gizzle quizzle mofo izzle dolor fo shizzle auctizzle. Integizzle things viverra fizzle. Fo shizzle dizzle massa quis brizzle. Owned venenatis ligula sizzle shizzlin dizzle tellus. Owned dizzle dang vitae arcu. Cizzle sociis natoque check it out et we gonna chung dizzle gangsta montes, bow wow wow ridiculizzle shizzle my nizzle crocodizzle.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=location</td>
-	<td>Cape Town<br />Johannesburg</td>
+	<td>Proin eget purizzle. Nullizzle check out this izzle diam fo shizzle massa gangster pellentesque.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=interviewees</td>
-	<td>Joe Bloggs, CEO of some thing<br />Joe Shmo, Blah of Blah</td>
+	<td>Break it down izzle ma nizzle. Vivamus yo mamma sapizzle, lacinia sit amizzle, vulputate vitae, condimentizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, nunc. </td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=audience</td>
-	<td>Fusce imperdiet commodo quam ac vulputate. Maecenas dictum tellus odio.</td>
+	<td>Da bomb fo amet maurizzle. Nullam fermentizzle mattis nunc.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=innovative</td>
-	<td>Maecenas interdum condimentum lacinia. Nulla aliquam luctus elit, a tristique nibh dictum vel. Duis diam velit, malesuada non mollis nec, ultrices nec nibh. Vivamus elit mi, varius sed pellentesque blandit, tempus quis orci. Donec ligula tortor, suscipit a posuere porttitor, rhoncus sed mauris. Sed eleifend placerat risus dapibus volutpat.</td>
+	<td>Morbi fizzle, gizzle izzle ultricizzle facilisis, velit mofo shiz justo, sizzle condimentizzle lacizzle purizzle you son of a bizzle enizzle. Sizzle away pulvinizzle nunc. Stuff mofo. In hac pot platea dictumst. Nizzle bizzle amet tellivizzle. Donizzle fo daahng dawg. Aenean in risizzle. Nizzle check it out, cool boom shackalack adipiscing suscipizzle, massa pimpin' pretium lorizzle, fo we gonna chung ipsizzle that's the shizzle izzle bling bling.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=impact</td>
-	<td>Vivamus condimentum tincidunt quam, in gravida sapien fringilla vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non massa magna, vel imperdiet lorem. Phasellus ut neque ante, ut interdum erat. Quisque placerat tellus eu neque sagittis sed varius nunc imperdiet. In pretium, libero quis viverra facilisis, tellus sem tempor tellus, ut viverra est neque sit amet tortor. Pellentesque non dolor sed elit sollicitudin sodales tristique vel lectus.</td>
+	<td>Shizzlin dizzle a break it down sizzle augue shizzlin dizzle accumsizzle. Aenean izzle est. Vivamizzle break it down dolizzle, viverra vitae, hizzle izzle, boom shackalack izzle, nizzle. Owned ante ipsizzle fo shizzle izzle faucibizzle orci luctus gangsta ultricizzle posuere own yo' Daahng dawg; Donizzle dolizzle. My shizz faucibizzle. Maecenizzle da bomb blandit quizzle. Vivamus rutrizzle aliquizzle orci. Sed facilisizzle. Go to hizzle sem that's the shizzle, venenatis pizzle, gangsta vizzle, blandizzle shiznit, brizzle.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=outlet</td>
-	<td>10Layer</td>
+	<td>10Layer website</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=cross_platform_strat</td>
-	<td>Vestibulum sodales odio non urna fermentum feugiat. Suspendisse potenti. Vivamus non ultrices est. Nunc luctus semper consequat. Phasellus id urna eros. Aliquam mi dui, aliquam ac scelerisque eu, ullamcorper nec libero. Ut hendrerit interdum leo porttitor euismod. Aliquam eu tortor ut dui consectetur suscipit eget sit amet quam. Ut pretium enim sit amet lacus iaculis vel lacinia sem eleifend. Sed malesuada accumsan lectus quis suscipit. Nulla facilisi.</td>
+	<td>Nizzle rizzle elizzle izzle that's the shizzle phat tincidunt. Maecenizzle a sure. Vestibulum shit lacizzle sed maurizzle elementum tristique. Fo shizzle my nizzle gangster sizzle pizzle erizzle ultricizzle that's the shizzle. That's the shizzle you son of a bizzle daahng dawg, ultricizzle at, hendrerizzle owned, adipiscing break yo neck, yall, dui.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=data</td>
-	<td>Donec porta sem at augue lobortis mattis. Mauris et dolor purus. Morbi leo enim, rhoncus quis dignissim quis, vestibulum non libero. Praesent sit amet elit mauris, eu viverra metus. Donec turpis dui, placerat et fermentum sodales, tristique ut velit. Suspendisse potenti. Suspendisse ornare condimentum pellentesque. Donec sed mi augue.</td>
+	<td>Etizzle velizzle yo mamma, aliquam consequat, pharetra boofron, dictizzle away, turpizzle. Mah nizzle neque. Boom shackalack lorizzle. Yo vitae erat doggy libero shizznit my shizz. Own yo' ac augue eu nibh away mattis. Phasellizzle fermentum crunk nizzle erat. Suspendisse gangster leo, sollicitudin sizzle, hizzle izzle, mofo nizzle, sure. Donizzle faucibus porttitizzle ligula. Nunc dawg, tellizzle shizzle my nizzle crocodizzle ornare cool, sapizzle metizzle tincidunt ante, egizzle dapibus enizzle ac i'm in the shizzle. Phasellus crazy leo, imperdizzle izzle, bling bling izzle, semper in, sapien.</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=budget</td>
-	<td>$300,000</td>
+	<td>5,000,000</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>name=samples</td>
-	<td>/Volumes/Macintosh HD/Users/jason/Documents/Backup/archive/2001/2001/Mom's poem.doc</td>
+	<td>/Volumes/Macintosh HD/Users/jason/Documents/M&amp;G/Turning journalism into an art.pages</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=link</td>
+	<td>http://10layer.com</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
