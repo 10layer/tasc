@@ -4,10 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="description" content="The African Story Challenge (TASC) is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.">
 	<meta name="keywords" content="Journalism, Africa, Reporting, Storytelling, Health, Agriculture, Rural Development, Water, Sanitation, Business, Technology, Environment">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The African Story Challenge</title>
 	<link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap-responsive.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/fontawesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+	
 	<script>
 		var apiurl = "<?= $this->tenlayer->apiurl ?>";
 	</script>
@@ -25,10 +28,61 @@
 <body data-spy="scroll" data-target=".navbar">
 	<div class="container header">
 		<div class="row">
+			<div class="visible-phone">
+				
+						<ul class="nav nav-pills ">
+							<li class="dropdown pull-right">
+			    				<a href="#" class="btn dropdown-toggle" data-toggle="dropdown">&#9776;</span></a>
+			    				<ul class="dropdown-menu">
+			    					<li><a href="<?= base_url() ?>">Home</a></li>
+			    					<li class="">
+										<a href="/apply">Apply</a>
+									</li>
+									<li class="">
+										<a href="/news">News</a>
+									</li>
+									<li class="">
+										<a href="/page/key-dates">Key Dates</a>
+									</li>
+									<li class="">
+										<a href="/page/themes">Themes</a>
+									</li>
+									<li class="">
+										<a href="/page/how-to-enter">How to Enter</a>
+									</li>
+									<li class="">
+										<a href="/page/frequently-asked-questions">FAQ</a>
+									</li>
+									<li class="">
+					    				<a href="/page/about">About The African Story Challenge</a>
+					    			</li>
+							        <li class="">
+							        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
+							        </li>
+							        <li class="">
+										<a href="/page/judges">The Challenge Judges</a>
+									</li>
+									<li class="">
+										<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
+									</li>
+									<li class="">
+								        <a href="/page/contact">Contact Details</a>
+								    </li>
+									<li class="">
+								        <a href="/page/the-team">The Team</a>
+								    </li>
+			    				</ul>
+			    			</li>
+			    		</ul>
+			    	
+			</div>
+		</div>
+		<div class="row">
 			<div class="span3">
 				<a class="brand" href="<?= base_url() ?>"><img alt="The African Story Challenge" src="/resources/images/logo.png" /></a>
 			</div>
-			<div class="span9">
+
+			<div class="span9  hidden-phone">
 				<div class="row search-bar">
 					<div class="span2">
 						<a target="_blank" href="https://twitter.com/storychallenge" class="btn"><i class="icon-twitter"></i></a>
@@ -54,38 +108,43 @@
 					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
 							<a href="/apply">Apply</a>
 						</li>
-						<li class="<?= ($uri == "news") ? 'active' : '' ?>">
+						<li class="hidden-phone <?= ($uri == "news") ? 'active' : '' ?>">
 							<a href="/news">News</a>
 						</li>
-						<li class="<?= ($uri == "key-dates") ? 'active' : '' ?>">
+						<li class="hidden-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
 							<a href="/page/key-dates">Key Dates</a>
 						</li>
-						<li class="<?= ($uri == "themes") ? 'active' : '' ?>">
+						<li class="visible-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
 							<a href="/page/themes">Themes</a>
 						</li>
-					    <!-- <li class="">
-					    	<?= anchor("/page/about", "About") ?>
-					    </li> -->
-					    <!-- <li class="">
-							<a href="/page/the-challenge-organisers">Organisers</a>
-						</li> -->
-						<li class="<?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+					    
+						<li class="visible-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
 							<a href="/page/how-to-enter">How to Enter</a>
 						</li>
-						<li class="<?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
+						<li class="visible-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
 							<a href="/page/frequently-asked-questions">FAQ</a>
 						</li>
 						
-						<!-- <li class="">
-							<a href="/page/judges">Judges</a>
-						</li> -->
-						<!-- <li class="">
-							<a href="/page/frequently-asked-questions">FAQ</a>
-						</li> -->
+						
 						
 					    <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info <b class="caret"></b></a>
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">More Info <b class="caret"></b></span></a>
 					    	<ul class="dropdown-menu">
+					    		<li class="visible-phone <?= ($uri == "news") ? 'active' : '' ?>">
+									<a href="/news">News</a>
+								</li>
+								<li class="visible-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
+									<a href="/page/key-dates">Key Dates</a>
+								</li>
+					    		<li class="hidden-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
+									<a href="/page/themes">Themes</a>
+								</li>
+					    		<li class="hidden-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+									<a href="/page/how-to-enter">How to Enter</a>
+								</li>
+					    		<li class="hidden-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
+									<a href="/page/frequently-asked-questions">FAQ</a>
+								</li>
 					    		<li class="">
 					    			<a href="/page/about">About The African Story Challenge</a>
 					    		</li>

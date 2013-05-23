@@ -216,10 +216,9 @@ h4,
 .carousel-inner img {
   margin-top: -50%;
   padding-top: 450px;
-  background-color: #000;
 }
 .carousel-inner {
-  background-color: #000;
+  background-color: #CCC;
 }
 .carousel-inner .img-blurb {
   margin-top: -45px;
@@ -261,7 +260,8 @@ h4,
   margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
-  margin-left: 200px;
+  margin: 10px auto;
+  cursor: pointer;
 }
 .fpitem-2013-04-30-judging-criteria ol {
   list-style-position: inside;
@@ -286,6 +286,7 @@ h4,
   width: 142px;
   height: 142px;
   display: block;
+  margin: 0px auto;
 }
 .icons img {
   width: 120px;
@@ -315,4 +316,35 @@ textarea {
 }
 .btn-submit {
   margin-top: 40px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-inner .img-container {
+    height: 400px;
+  }
+  .carousel-inner .img-container img {
+    padding-top: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-inner .img-container {
+    height: 350px;
+  }
+  .carousel-inner .img-container img {
+    padding-top: 300px;
+  }
+}
+@media (max-width: 480px) {
+  h3,
+  .lead {
+    font-size: 18.5px;
+  }
+  .carousel-inner .img-container {
+    height: 200px;
+  }
+  .carousel-inner .img-container img {
+    padding-top: 160px;
+  }
+  .fpitem-2013-04-30-the-competition-has-x-themes ul li {
+    width: auto;
+  }
 }
