@@ -278,6 +278,9 @@ h4,
 .fpitem-2013-04-30-judging-criteria ol li p {
   display: inline;
 }
+.fpitem-2013-04-30-judging-criteria ol li p a {
+  color: #FFF;
+}
 .icon-round-bg {
   background: url(/resources/images/icons/circle.png) no-repeat 0 0;
   width: 142px;
