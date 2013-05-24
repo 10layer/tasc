@@ -28,7 +28,7 @@
 				if (!is_dir($config['upload_path'])) {
 					mkdir($config["upload_path"], 0755, true);
 				}
-				$config['allowed_types'] = 'doc|docx|pdf|jpg|png';
+				$config['allowed_types'] = 'doc|docx|pdf|jpg|png|rtf|pages|txt';
 				$config['encrypt_name'] = true;
 				$this->load->library('upload', $config);
 				foreach($_FILES as $key=>$file) {
