@@ -51,9 +51,32 @@
 				curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
 				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 				$jsreturn = curl_exec($ch);
+				//print_r($jsreturn);
 				curl_close($ch);
 				$result = json_decode($jsreturn);
 				if (!$result->error) {
+					$this->load->library('email');
+
+					$config["mailtype"] = "html";
+					$this->email->initialize($config);
+					$this->email->from($fields["email"], $fields["first_name"]." ".$fields["surname"]);
+					$this->email->to('info@africanstorychallenge.com'); 
+					$this->email->subject('African Story Challenge Website submission');
+					$s = "<p>Submission received at ".date("c")."</p>\n\n";
+					if (!empty($fields["cv"])) {
+						$fields["cv"] = base_url().$fields["cv"];
+					}
+					if (!empty($fields["samples"])) {
+						$fields["samples"] = base_url().$fields["samples"];
+					}
+					unset($fields["action"]);
+					foreach($fields as $key => $val) {
+						$s .= "<p><strong>$key</strong><br />\n$val</p>\n\n";
+					}
+					$this->email->message($s);	
+
+					$this->email->send();
+					//echo $this->email->print_debugger();
 					$this->load->view("application/thanks", $data);
 					return true;
 				}
