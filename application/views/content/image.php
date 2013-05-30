@@ -16,6 +16,9 @@
 			?>
 			<div class="body">
 				<?php
+				if (!is_array($content->image)) {
+					$content->image = (Array) $image;
+				}
 				foreach($content->image as $image) {
 				?>
 				<div class="row">
