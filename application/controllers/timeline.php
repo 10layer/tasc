@@ -38,9 +38,10 @@
 			$tl=$this->tenlayer->get($urlid);
 			$timeline = new stdClass();
 			if ($urlid != "all") {
-				$zones=$this->tenlayer->section($urlid);
+				$zones=(Array) $this->tenlayer->section($urlid);
 				$data = array();
 				foreach($zones as $zone) {
+					$zone = (Array) $zone;
 					$data = array_merge($data, $zone);
 				}
 				$timeline->headline = $tl->title;
