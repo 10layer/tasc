@@ -17,7 +17,7 @@
 		}
 		
 		public function index() {
-			$content = $this->tenlayer->section("home");
+			$content = $this->tenlayer->section("home-french");
 			$this->load->view("home", $content);
 		}
 	}

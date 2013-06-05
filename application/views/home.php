@@ -3,7 +3,7 @@
 ?>
 <div class="container body">
 <div class="lead">
-	<p>The African Story Challenge is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.</p>
+	<p>Le Concours Histoires d’Afrique est un nouveau programme doté d’un million de dollars destiné à encourager des reportages multimédia de fond qui interpellent les citoyens et dont l’objectif est l’amélioration de la santé et du bien-être des populations africaines.</p>
 	<div class="row">
 		<div class="span12">
 			<div id="myCarousel" class="carousel slide">
@@ -45,7 +45,7 @@
 	</div>
 	<div class="row">
 		<div class="span3 offset4 center">
-			<a class="btn btn-primary" href="/apply">Entry Form</a>
+			<a class="btn btn-primary" href="/apply">Formulaire d’inscription</a>
 		</div>
 	</div>
 </div>

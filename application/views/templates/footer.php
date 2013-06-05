@@ -3,9 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span5">
-					<p>The Story Challenge is a project by the <a target="_blank" href="http://africanmediainitiative.org/">African Media Initiative (AMI)</a>,
-the continent’s largest association of media owners and operators, in
-partnership with the <a target="_blank" href="http://www.icfj.org/">International Center for Journalists (ICFJ)</a>.</p>
+					<p>Le Concours Histoires d’Afrique est un projet de <a target="_blank" href="http://africanmediainitiative.org/">L'Initiative des Médias d'Afrique (AMI)</a>, la plus grande organisation de tutelle de propriétaires et dirigeants des médias en Afrique, en partenariat avec <a target="_blank" href="http://www.icfj.org/">le centre international de journalisme (ICJF)</a>.</p>
 					<p>
 						Email: <a href="mailto:info@africanstorychallenge.com">info@africanstorychallenge.com</a><br />
 						Facebook: <a target="_blank" href="http://www.facebook.com/AfricanStoryChallenge">AfricanStoryChallenge</a><br />
@@ -26,7 +24,7 @@ partnership with the <a target="_blank" href="http://www.icfj.org/">Internationa
 		</div>
 		<div class="row">
 			<div class="span12 offset2">
-				<h3>Partners</h3>
+				<h3>Partenaires</h3>
 			</div>
 			<div class="span3 offset2">
 				<a target="_blank" href="http://www.icfj.org/"><img src="/resources/images/partners/icfj.png" alt="ICFJ" /></a>

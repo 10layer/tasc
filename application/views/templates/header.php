@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="The African Story Challenge (TASC) is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.">
-	<meta name="keywords" content="Journalism, Africa, Reporting, Storytelling, Health, Agriculture, Rural Development, Water, Sanitation, Business, Technology, Environment">
+	<meta name="description" content="Le Concours Histoires d’Afrique est un nouveau programme doté d’un million de dollars destiné à encourager des reportages multimédia de fond qui interpellent les citoyens et dont l’objectif est l’amélioration de la santé et du bien-être des populations africaines.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The African Story Challenge</title>
+	<title>Le Concours Histoires d’Afrique</title>
 	<link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap-responsive.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/fontawesome/css/font-awesome.min.css" />
@@ -34,42 +33,42 @@
 							<li class="dropdown pull-right">
 			    				<a href="#" class="btn dropdown-toggle" data-toggle="dropdown">&#9776;</span></a>
 			    				<ul class="dropdown-menu">
-			    					<li><a href="<?= base_url() ?>">Home</a></li>
+			    					<li><a href="<?= base_url() ?>">Maison</a></li>
 			    					<li class="">
-										<a href="/apply">Apply</a>
+										<a href="/apply">Postuler</a>
 									</li>
 									<li class="">
-										<a href="/news">News</a>
+										<a href="/news">Nouvelles</a>
 									</li>
 									<li class="">
-										<a href="/page/key-dates">Key Dates</a>
+										<a href="/page/key-dates">Dates clés</a>
 									</li>
 									<li class="">
-										<a href="/page/themes">Themes</a>
+										<a href="/page/themes">Thèmes</a>
 									</li>
 									<li class="">
-										<a href="/page/how-to-enter">How to Enter</a>
+										<a href="/page/how-to-enter">Comment participer</a>
 									</li>
 									<li class="">
 										<a href="/page/frequently-asked-questions">FAQ</a>
 									</li>
 									<li class="">
-					    				<a href="/page/about">About The African Story Challenge</a>
+					    				<a href="/page/about">À propos de nous</a>
 					    			</li>
 							        <li class="">
-							        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
+							        	<a href="/page/the-challenge-organisers">L'équipe organisatrice</a>
 							        </li>
 							        <li class="">
-										<a href="/page/judges">The Challenge Judges</a>
+										<a href="/page/judges">Jury</a>
 									</li>
 									<li class="">
-										<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
+										<a href="/page/terms-and-conditions">Termes et Conditions</a>
 									</li>
 									<li class="">
-								        <a href="/page/contact">Contact Details</a>
+								        <a href="/page/contact">Contacts</a>
 								    </li>
 									<li class="">
-								        <a href="/page/the-team">The Team</a>
+								        <a href="/page/the-team">L’équipe de Concours Histoires d’Afrique</a>
 								    </li>
 			    				</ul>
 			    			</li>
@@ -79,7 +78,7 @@
 		</div>
 		<div class="row">
 			<div class="span3">
-				<a class="brand" href="<?= base_url() ?>"><img alt="The African Story Challenge" src="/resources/images/logo.png" /></a>
+				<a class="brand" href="<?= base_url() ?>"><img alt="Le Concours Histoires d’Afrique" src="/resources/images/logo.png" /></a>
 			</div>
 
 			<div class="span9  hidden-phone">
@@ -103,24 +102,24 @@
 					<div class="navbar-inner">
 					<ul class="nav">
 					    <li class="<?= ($uri == "home") ? 'active' : '' ?>">
-					        <a href="<?= base_url() ?>">Home</a>
+					        <a href="<?= base_url() ?>">Maison</a>
 					    </li>
 					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
-							<a href="/apply">Apply</a>
+							<a href="/apply">Postuler</a>
 						</li>
 						<li class="hidden-phone <?= ($uri == "news") ? 'active' : '' ?>">
-							<a href="/news">News</a>
+							<a href="/news">Nouvelles</a>
 						</li>
 						<li class="hidden-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
-							<a href="/page/key-dates">Key Dates</a>
+							<a href="/page/key-dates">Dates clés</a>
 						</li>
 						<li class="visible-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
-							<a href="/page/themes">Themes</a>
+							<a href="/page/themes">Thèmes</a>
 						</li>
 					    
-						<li class="visible-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
-							<a href="/page/how-to-enter">How to Enter</a>
-						</li>
+						<!-- <li class="visible-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+							<a href="/page/how-to-enter">Comment participer</a>
+						</li> -->
 						<li class="visible-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
 							<a href="/page/frequently-asked-questions">FAQ</a>
 						</li>
@@ -128,25 +127,25 @@
 						
 						
 					    <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">More Info <b class="caret"></b></span></a>
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">Plus d'infos <b class="caret"></b></span></a>
 					    	<ul class="dropdown-menu">
 					    		<li class="visible-phone <?= ($uri == "news") ? 'active' : '' ?>">
-									<a href="/news">News</a>
+									<a href="/news">Nouvelles</a>
 								</li>
 								<li class="visible-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
-									<a href="/page/key-dates">Key Dates</a>
+									<a href="/page/key-dates">Dates clés</a>
 								</li>
 					    		<li class="hidden-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
-									<a href="/page/themes">Themes</a>
+									<a href="/page/themes">Thèmes</a>
 								</li>
-					    		<li class="hidden-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
-									<a href="/page/how-to-enter">How to Enter</a>
+					    		<li class=" <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+									<a href="/page/how-to-enter">Comment participer</a>
 								</li>
 					    		<li class="hidden-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
 									<a href="/page/frequently-asked-questions">FAQ</a>
 								</li>
 					    		<li class="">
-					    			<a href="/page/about">About The African Story Challenge</a>
+					    			<a href="/page/about">À propos de nous</a>
 					    		</li>
 					    		<!-- <li class="">
 						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
@@ -155,85 +154,23 @@
 						        	<a href="/page/winners">Winners</a>
 						        </li> -->
 						        <li class="">
-						        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
+						        	<a href="/page/the-challenge-organisers">L'équipe organisatrice</a>
 						        </li>
 						        <li class="">
-									<a href="/page/judges">The Challenge Judges</a>
+									<a href="/page/judges">Jury</a>
 								</li>
 								
 								<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
-									<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
+									<a href="/page/terms-and-conditions">Termes et Conditions</a>
 								</li>
 								<li class="">
-							        <a href="/page/contact">Contact Details</a>
+							        <a href="/page/contact">Contacts</a>
 							    </li>
 								<li class="">
-							        <a href="/page/the-team">The Team</a>
+							        <a href="/page/the-team">L’équipe de Concours Histoires d’Afrique</a>
 							    </li>
 						    </ul>
 					    </li>
-					    <!-- <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entry Info <b class="caret"></b></a>
-					    	<ul class="dropdown-menu">
-					    		<li class="">
-						        	<a href="/page/how-to-enter">How to Enter</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/themes">Themes</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/judges">Judges</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/frequently-asked-questions">FAQ</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
-						        </li>
-						    </ul>
-					    </li>
-					    <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								Apply
-								<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="">
-							        <a href="/apply">Application Form</a>
-							    </li>
-							    <li class="">
-							        <a href="/page/key-dates">Key Dates</a>
-					    		</li>
-							</ul>
-						</li> -->
-					    <!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								Stories
-								<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="">
-							        <a href="<?= base_url() ?>/blog">Blog</a>
-							    </li>
-							    <li class="">
-							        <a href="<?= base_url() ?>/examples">Examples</a>
-					    		</li>
-							</ul>
-						</li> -->
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								Contact
-								<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="">
-							        <a href="/page/contact">Contact Details</a>
-							    </li>
-								<li class="">
-							        <a href="/page/the-team">The Team</a>
-							    </li>
-							</ul>
-						</li> -->
 					 </ul>
 					 </div>
 			    </div>

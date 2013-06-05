@@ -249,10 +249,12 @@ h4,
 .fpitem h1 {
   margin-bottom: 20px;
 }
-.fpitem-2013-04-30-the-competition-has-x-themes ul {
+.fpitem-2013-04-30-the-competition-has-x-themes ul,
+.fpitem-2013-06-05-le-concours-sera-divise-en-cinq-themes ul {
   list-style-type: none;
 }
-.fpitem-2013-04-30-the-competition-has-x-themes ul li {
+.fpitem-2013-04-30-the-competition-has-x-themes ul li,
+.fpitem-2013-06-05-le-concours-sera-divise-en-cinq-themes ul li {
   background-color: #f6b13b;
   color: #000;
   width: 400px;
@@ -262,6 +264,11 @@ h4,
   padding-top: 20px;
   margin: 10px auto;
   cursor: pointer;
+}
+.fpitem-2013-04-30-the-competition-has-x-themes .popover,
+.fpitem-2013-06-05-le-concours-sera-divise-en-cinq-themes .popover {
+  font-size: 8pt;
+  line-height: 10pt;
 }
 .fpitem-2013-04-30-judging-criteria ol {
   list-style-position: inside;
