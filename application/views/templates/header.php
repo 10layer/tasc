@@ -41,19 +41,19 @@
 										<a href="/news">Nouvelles</a>
 									</li>
 									<li class="">
-										<a href="/page/key-dates">Dates clés</a>
+										<a href="/page/dates-cles-20132014">Dates clés</a>
 									</li>
 									<li class="">
-										<a href="/page/themes">Thèmes</a>
+										<a href="/page/themes-du-concours">Thèmes</a>
 									</li>
 									<li class="">
-										<a href="/page/how-to-enter">Comment participer</a>
+										<a href="/page/comment-participer">Comment participer</a>
 									</li>
 									<li class="">
 										<a href="/page/frequently-asked-questions">FAQ</a>
 									</li>
 									<li class="">
-					    				<a href="/page/about">À propos de nous</a>
+					    				<a href="/page/a-propos-de-nous">À propos de nous</a>
 					    			</li>
 							        <li class="">
 							        	<a href="/page/the-challenge-organisers">L'équipe organisatrice</a>
@@ -65,7 +65,7 @@
 										<a href="/page/terms-and-conditions">Termes et Conditions</a>
 									</li>
 									<li class="">
-								        <a href="/page/contact">Contacts</a>
+								        <a href="/page/contacts">Contacts</a>
 								    </li>
 									<li class="">
 								        <a href="/page/the-team">L’équipe de Concours Histoires d’Afrique</a>
@@ -110,14 +110,14 @@
 						<li class="hidden-phone <?= ($uri == "news") ? 'active' : '' ?>">
 							<a href="/news">Nouvelles</a>
 						</li>
-						<li class="hidden-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
-							<a href="/page/key-dates">Dates clés</a>
+						<li class="hidden-phone <?= ($uri == "dates-cles-20132014") ? 'active' : '' ?>">
+							<a href="/page/dates-cles-20132014">Dates clés</a>
 						</li>
-						<li class="visible-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
-							<a href="/page/themes">Thèmes</a>
+						<li class="visible-desktop <?= ($uri == "themes-du-concours") ? 'active' : '' ?>">
+							<a href="/page/themes-du-concours">Thèmes</a>
 						</li>
 					    
-						<!-- <li class="visible-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+						<!-- <li class="visible-desktop <?= ($uri == "comment-participer") ? 'active' : '' ?>">
 							<a href="/page/how-to-enter">Comment participer</a>
 						</li> -->
 						<li class="visible-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
@@ -132,20 +132,20 @@
 					    		<li class="visible-phone <?= ($uri == "news") ? 'active' : '' ?>">
 									<a href="/news">Nouvelles</a>
 								</li>
-								<li class="visible-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
-									<a href="/page/key-dates">Dates clés</a>
+								<li class="visible-phone <?= ($uri == "dates-cles-20132014") ? 'active' : '' ?>">
+									<a href="/page/dates-cles-20132014">Dates clés</a>
 								</li>
-					    		<li class="hidden-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
-									<a href="/page/themes">Thèmes</a>
+					    		<li class="hidden-desktop <?= ($uri == "themes-du-concours") ? 'active' : '' ?>">
+									<a href="/page/themes-du-concours">Thèmes</a>
 								</li>
-					    		<li class=" <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
-									<a href="/page/how-to-enter">Comment participer</a>
+					    		<li class=" <?= ($uri == "comment-participer") ? 'active' : '' ?>">
+									<a href="/page/comment-participer">Comment participer</a>
 								</li>
 					    		<li class="hidden-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
 									<a href="/page/frequently-asked-questions">FAQ</a>
 								</li>
 					    		<li class="">
-					    			<a href="/page/about">À propos de nous</a>
+					    			<a href="/page/a-propos-de-nous">À propos de nous</a>
 					    		</li>
 					    		<!-- <li class="">
 						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
@@ -164,7 +164,7 @@
 									<a href="/page/terms-and-conditions">Termes et Conditions</a>
 								</li>
 								<li class="">
-							        <a href="/page/contact">Contacts</a>
+							        <a href="/page/contacts">Contacts</a>
 							    </li>
 								<li class="">
 							        <a href="/page/the-team">L’équipe de Concours Histoires d’Afrique</a>
