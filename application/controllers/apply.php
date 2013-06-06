@@ -18,7 +18,7 @@
 		
 		public function index() {
 			$data = array();
-			$submissions_form = $this->tenlayer->describe("submission");
+			$submissions_form = $this->tenlayer->describe("submission_french");
 			$data["form"] = $submissions_form;
 			$action = $this->input->post("action");
 			if (!empty($action) && ($action == "insert")) {
@@ -61,7 +61,7 @@
 					$this->email->initialize($config);
 					$this->email->from($fields["email"], $fields["first_name"]." ".$fields["surname"]);
 					$this->email->to('info@africanstorychallenge.com'); 
-					$this->email->subject('African Story Challenge Website submission');
+					$this->email->subject('African Story Challenge Website submission - French');
 					$s = "<p>Submission received at ".date("c")."</p>\n\n";
 					if (!empty($fields["cv"])) {
 						$fields["cv"] = base_url().$fields["cv"];

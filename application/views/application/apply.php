@@ -3,7 +3,7 @@
 ?>
 
 <div class="container">
-	<h1>Apply</h1>
+	<h1>Postuler</h1>
 	<?php
 	if (!empty($errormsg)) {
 	?>
