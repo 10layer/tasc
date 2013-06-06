@@ -34,7 +34,7 @@
 					}
 				}
 			?>
-			<label><button type="submit" class="btn btn-primary btn-submit">Submit</button></label>
+			<label><button type="submit" class="btn btn-primary btn-submit">Soumettre</button></label>
 		</fieldset>
 	</form>
 </div>
