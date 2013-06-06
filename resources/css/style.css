@@ -270,10 +270,12 @@ h4,
   font-size: 8pt;
   line-height: 10pt;
 }
-.fpitem-2013-04-30-judging-criteria ol {
+.fpitem-2013-04-30-judging-criteria ol,
+.fpitem-2013-06-06-criteres-de-selection ol {
   list-style-position: inside;
 }
-.fpitem-2013-04-30-judging-criteria ol li {
+.fpitem-2013-04-30-judging-criteria ol li,
+.fpitem-2013-06-06-criteres-de-selection ol li {
   color: #FFF;
   font-size: 15pt;
   line-height: 180%;
@@ -282,10 +284,12 @@ h4,
   min-height: 35px;
   margin-bottom: 10px;
 }
-.fpitem-2013-04-30-judging-criteria ol li p {
+.fpitem-2013-04-30-judging-criteria ol li p,
+.fpitem-2013-06-06-criteres-de-selection ol li p {
   display: inline;
 }
-.fpitem-2013-04-30-judging-criteria ol li p a {
+.fpitem-2013-04-30-judging-criteria ol li p a,
+.fpitem-2013-06-06-criteres-de-selection ol li p a {
   color: #FFF;
 }
 .icon-round-bg {
