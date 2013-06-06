@@ -38,9 +38,6 @@
 										<a href="/apply">Postuler</a>
 									</li>
 									<li class="">
-										<a href="/news">Nouvelles</a>
-									</li>
-									<li class="">
 										<a href="/page/dates-cles-20132014">Dates clés</a>
 									</li>
 									<li class="">
@@ -107,9 +104,6 @@
 					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
 							<a href="/apply">Postuler</a>
 						</li>
-						<li class="hidden-phone <?= ($uri == "news") ? 'active' : '' ?>">
-							<a href="/news">Nouvelles</a>
-						</li>
 						<li class="hidden-phone <?= ($uri == "dates-cles-20132014") ? 'active' : '' ?>">
 							<a href="/page/dates-cles-20132014">Dates clés</a>
 						</li>
@@ -129,9 +123,6 @@
 					    <li class="dropdown">
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">Plus d'infos <b class="caret"></b></span></a>
 					    	<ul class="dropdown-menu">
-					    		<li class="visible-phone <?= ($uri == "news") ? 'active' : '' ?>">
-									<a href="/news">Nouvelles</a>
-								</li>
 								<li class="visible-phone <?= ($uri == "dates-cles-20132014") ? 'active' : '' ?>">
 									<a href="/page/dates-cles-20132014">Dates clés</a>
 								</li>
