@@ -75,7 +75,7 @@
 					}
 					$this->email->message($s);	
 
-					$this->email->send();
+					//$this->email->send();
 					//echo $this->email->print_debugger();
 					$this->load->view("application/thanks", $data);
 					return true;
