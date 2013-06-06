@@ -50,25 +50,25 @@
 										<a href="/page/comment-participer">Comment participer</a>
 									</li>
 									<li class="">
-										<a href="/page/frequently-asked-questions">FAQ</a>
+										<a href="/page/foire-aux-questions">FAQ</a>
 									</li>
 									<li class="">
 					    				<a href="/page/a-propos-de-nous">À propos de nous</a>
 					    			</li>
 							        <li class="">
-							        	<a href="/page/the-challenge-organisers">L'équipe organisatrice</a>
+							        	<a href="/page/lequipe-organisatrice">L'équipe organisatrice</a>
 							        </li>
 							        <li class="">
-										<a href="/page/judges">Jury</a>
+										<a href="/page/membres-du-jury">Jury</a>
 									</li>
 									<li class="">
-										<a href="/page/terms-and-conditions">Termes et Conditions</a>
+										<a href="/page/termes-et-conditions">Termes et Conditions</a>
 									</li>
 									<li class="">
 								        <a href="/page/contacts">Contacts</a>
 								    </li>
 									<li class="">
-								        <a href="/page/the-team">L’équipe de Concours Histoires d’Afrique</a>
+								        <a href="/page/lequipe-du-concours-histoires-dafrique-qui-sommes-nous">L’équipe de Concours Histoires d’Afrique</a>
 								    </li>
 			    				</ul>
 			    			</li>
@@ -120,8 +120,8 @@
 						<!-- <li class="visible-desktop <?= ($uri == "comment-participer") ? 'active' : '' ?>">
 							<a href="/page/how-to-enter">Comment participer</a>
 						</li> -->
-						<li class="visible-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
-							<a href="/page/frequently-asked-questions">FAQ</a>
+						<li class="visible-desktop <?= ($uri == "foire-aux-questions") ? 'active' : '' ?>">
+							<a href="/page/foire-aux-questions">FAQ</a>
 						</li>
 						
 						
@@ -141,8 +141,8 @@
 					    		<li class=" <?= ($uri == "comment-participer") ? 'active' : '' ?>">
 									<a href="/page/comment-participer">Comment participer</a>
 								</li>
-					    		<li class="hidden-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
-									<a href="/page/frequently-asked-questions">FAQ</a>
+					    		<li class="hidden-desktop <?= ($uri == "foire-aux-questions") ? 'active' : '' ?>">
+									<a href="/page/foire-aux-questions">FAQ</a>
 								</li>
 					    		<li class="">
 					    			<a href="/page/a-propos-de-nous">À propos de nous</a>
@@ -154,20 +154,20 @@
 						        	<a href="/page/winners">Winners</a>
 						        </li> -->
 						        <li class="">
-						        	<a href="/page/the-challenge-organisers">L'équipe organisatrice</a>
+						        	<a href="/page/lequipe-organisatrice">L'équipe organisatrice</a>
 						        </li>
 						        <li class="">
-									<a href="/page/judges">Jury</a>
+									<a href="/page/membres-du-jury">Jury</a>
 								</li>
 								
-								<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
-									<a href="/page/terms-and-conditions">Termes et Conditions</a>
+								<li class="<?= ($uri == "termes-et-conditions") ? 'active' : '' ?>">
+									<a href="/page/termes-et-conditions">Termes et Conditions</a>
 								</li>
 								<li class="">
 							        <a href="/page/contacts">Contacts</a>
 							    </li>
 								<li class="">
-							        <a href="/page/the-team">L’équipe de Concours Histoires d’Afrique</a>
+							        <a href="/page/lequipe-du-concours-histoires-dafrique-qui-sommes-nous">L’équipe de Concours Histoires d’Afrique</a>
 							    </li>
 						    </ul>
 					    </li>
