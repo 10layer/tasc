@@ -71,6 +71,9 @@
 									<li class="">
 								        <a href="/page/the-team">The Team</a>
 								    </li>
+								    <li>
+								    	<a href="http://fr.africanstorychallenge.com">Français</a>
+								    </li>
 			    				</ul>
 			    			</li>
 			    		</ul>
@@ -89,7 +92,8 @@
 						<a target="_blank" href="http://www.facebook.com/AfricanStoryChallenge" class="btn"><i class="icon-facebook"></i></a>
 						<a target="_blank" href="https://plus.google.com/communities/105613979636196049691" class="btn"><i class="icon-google-plus"></i></a>
 					</div>
-					<div class="span7"><div class="gcse-search"></div></div>
+					<div class="span1 smaller"><a href="http://fr.africanstorychallenge.com"><img src="/resources/images/fr.png" alt="Français" /></a></div>
+					<div class="span6"><div class="gcse-search"></div></div>
 				</div>
 				
 				<div class="row">
