@@ -8,7 +8,7 @@
 	<div class="alert alert-warning alert-block">
 		<h3>No competitions currently running</h3>
 		<?php
-			setlocale(LC_TIME, "fr_FR");
+			setlocale(LC_TIME, "fr_FR.utf8");
 		?>
 		<p>Submissions for <strong><?= $next_competition->french_title ?></strong> will start on <?= strftime("%A, %e %B, %Y", $next_competition->submission_start_date) ?></p>
 	</div>
