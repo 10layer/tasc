@@ -17,6 +17,26 @@
 		}
 		
 		public function index() {
+			//First let's check if there is actually a competition running
+			$competitions = $this->tenlayer->listing(array("content_type"=>"competition"))->content;
+			$competition_running = false;
+			$next_competition = $competitions[0];
+			$current_competition = false;
+			foreach($competitions as $competition) {
+				$start_date = $competition->submission_start_date;
+				$end_date = $competition->submission_end_date;
+				if ((time() > $start_date) && (time() < $end_date)) {
+					$competition_running = true;
+					$current_competition = $competition;
+				}
+				if ((time() < $competition->start_date) && ($next_competition->start_date > $competition->start_date)) {
+					$next_competition = $competition;
+				}
+			}
+			if (!$competition_running) {
+				$this->load->view("application/none_running", array("next_competition"=>$next_competition));
+				return true;
+			}
 			$data = array();
 			$submissions_form = $this->tenlayer->describe("submission_french");
 			$data["form"] = $submissions_form;
