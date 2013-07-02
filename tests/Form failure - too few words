@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://local.tasc.org/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/apply</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=first_name</td>
+	<td>Jason</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=surname</td>
+	<td>Too Many Words</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=sex</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>jason@10layer.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=postal</td>
+	<td>20 Duiker Drive</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=telephone</td>
+	<td>1234</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nationality</td>
+	<td>South African</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=country_of_residence</td>
+	<td>South Africa</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=employment_type</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=pitch</td>
+	<td>Lorem ipsum dolor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=budget</td>
+	<td>1234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>class=alert alert-error alert-block</td>
+	<td>*Pitch must have 10 or more words*</td>
+</tr>
+</tbody></table>
+</body>
+</html>
