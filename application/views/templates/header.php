@@ -109,55 +109,38 @@
 					    <li class="<?= ($uri == "home") ? 'active' : '' ?>">
 					        <a href="<?= base_url() ?>">Home</a>
 					    </li>
+					    <li class="dropdown">
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">Competition Details <b class="caret"></b></span></a>
+						    <ul class="dropdown-menu">
+								<li class=" <?= ($uri == "key-dates") ? 'active' : '' ?>">
+									<a href="/page/key-dates">Key Dates</a>
+								</li>
+								<li class="<?= ($uri == "themes") ? 'active' : '' ?>">
+									<a href="/page/themes">Themes</a>
+								</li>
+								<li class="<?= ($uri == "how-to-enter") ? 'active' : '' ?>">
+									<a href="/page/how-to-enter">How to Enter</a>
+								</li>
+								<li class="<?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
+									<a href="/page/frequently-asked-questions">FAQ</a>
+								</li>
+								<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
+									<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
+								</li>
+							</ul>
+					    </li>
 					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
 							<a href="/apply">Apply</a>
 						</li>
-						<li class="hidden-phone <?= ($uri == "news") ? 'active' : '' ?>">
+						<li class="<?= ($uri == "news") ? 'active' : '' ?>">
 							<a href="/news">News</a>
 						</li>
-						<li class="hidden-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
-							<a href="/page/key-dates">Key Dates</a>
-						</li>
-						<li class="visible-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
-							<a href="/page/themes">Themes</a>
-						</li>
-					    
-						<li class="visible-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
-							<a href="/page/how-to-enter">How to Enter</a>
-						</li>
-						<li class="visible-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
-							<a href="/page/frequently-asked-questions">FAQ</a>
-						</li>
-						
-						
-						
 					    <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">More Info <b class="caret"></b></span></a>
+					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">About <b class="caret"></b></span></a>
 					    	<ul class="dropdown-menu">
-					    		<li class="visible-phone <?= ($uri == "news") ? 'active' : '' ?>">
-									<a href="/news">News</a>
-								</li>
-								<li class="visible-phone <?= ($uri == "key-dates") ? 'active' : '' ?>">
-									<a href="/page/key-dates">Key Dates</a>
-								</li>
-					    		<li class="hidden-desktop <?= ($uri == "themes") ? 'active' : '' ?>">
-									<a href="/page/themes">Themes</a>
-								</li>
-					    		<li class="hidden-desktop <?= ($uri == "how-to-enter") ? 'active' : '' ?>">
-									<a href="/page/how-to-enter">How to Enter</a>
-								</li>
-					    		<li class="hidden-desktop <?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
-									<a href="/page/frequently-asked-questions">FAQ</a>
-								</li>
 					    		<li class="">
 					    			<a href="/page/about">About The African Story Challenge</a>
 					    		</li>
-					    		<!-- <li class="">
-						        	<a href="<?= base_url() ?>#2013-04-30-aim-of-the-african-story-challenge">Aim</a>
-						        </li> -->
-						        <!-- <li class="">
-						        	<a href="/page/winners">Winners</a>
-						        </li> -->
 						        <li class="">
 						        	<a href="/page/the-challenge-organisers">The Challenge Organisers</a>
 						        </li>
@@ -165,9 +148,7 @@
 									<a href="/page/judges">The Challenge Judges</a>
 								</li>
 								
-								<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
-									<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
-								</li>
+								
 								<li class="">
 							        <a href="/page/contact">Contact Details</a>
 							    </li>
