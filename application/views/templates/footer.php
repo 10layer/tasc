@@ -48,5 +48,6 @@ partnership with the <a target="_blank" href="http://www.icfj.org/">Internationa
 	<script src="/resources/waypoints/waypoints.min.js"></script>
 	<script src="/resources/waypoints/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
 	<script src="/resources/tasc-ck.js"></script>
+	<script>$.get("<?= $this->config->item('apiurl') ?>logging/hit");</script>
 </body>
 </html>
