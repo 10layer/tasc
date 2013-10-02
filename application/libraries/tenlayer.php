@@ -17,9 +17,18 @@ class TenLayer {
 		$this->apiurl = rtrim($this->apiurl, "/")."/"; //Enforce trailing slash
 	}
 	
-	public function get($id) {
+	public function get($id, $linked = false, $api_key = false) {
 		try {
-			$result=json_decode(file_get_contents($this->apiurl."content/get?id=$id"));
+			if ($linked) {
+				$method = "get_linked_object";
+			} else {
+				$method = "get";
+			}
+			$_api_key = "";
+			if (!empty($api_key)) {
+				$_api_key="&api_key=$api_key";
+			}
+			$result=json_decode(file_get_contents($this->apiurl."content/$method?id=$id".$_api_key));
 			if (empty($result)) {
 				return false;
 			}
