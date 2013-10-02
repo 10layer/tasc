@@ -18,7 +18,8 @@
 		
 		public function _remap() {
 			$urlid=$this->uri->segment(2);
-			$data["content"]=$this->tenlayer->get($urlid);
+			$api_key = $this->input->get("api_key");
+			$data["content"]=$this->tenlayer->get($urlid, false, $api_key);
 			if (empty($data["content"])) {
 				show_404();
 			}
