@@ -46,6 +46,20 @@
 			?>
 
 			<?php
+			if (!empty($content->second_url)) {
+			?>
+			<div class="row">
+				<div class="span9">
+					<h4>External Site</h4>
+					<iframe src="<?= $content->second_url ?>" style="height: 400px; width: 100%"></iframe>
+					<a href="<?= $content->second_url ?>" target="_blank"><i class="icon-chevron-right"></i> Open this link in a new page</a>
+				</div>
+			</div>
+			<?php
+			}
+			?>
+
+			<?php
 			if (!empty($content->photo)) {
 			?>
 			<div class="row">
