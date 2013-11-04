@@ -42,6 +42,9 @@
 										<a href="/news">News</a>
 									</li>
 									<li class="">
+										<a href="/stories">Stories</a>
+									</li>
+									<li class="">
 										<a href="/page/key-dates">Key Dates</a>
 									</li>
 									<li class="">
@@ -135,6 +138,9 @@
 						<li class="<?= ($uri == "news") ? 'active' : '' ?>">
 							<a href="/news">News</a>
 						</li>
+						<li class="<?= ($uri == "stories") ? 'active' : '' ?>">
+							<a href="/stories">Stories</a>
+						</li>
 					    <li class="dropdown">
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">About <b class="caret"></b></span></a>
 					    	<ul class="dropdown-menu">
@@ -157,68 +163,6 @@
 							    </li>
 						    </ul>
 					    </li>
-					    <!-- <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Entry Info <b class="caret"></b></a>
-					    	<ul class="dropdown-menu">
-					    		<li class="">
-						        	<a href="/page/how-to-enter">How to Enter</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/themes">Themes</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/judges">Judges</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/frequently-asked-questions">FAQ</a>
-						        </li>
-						        <li class="">
-						        	<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
-						        </li>
-						    </ul>
-					    </li>
-					    <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								Apply
-								<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="">
-							        <a href="/apply">Application Form</a>
-							    </li>
-							    <li class="">
-							        <a href="/page/key-dates">Key Dates</a>
-					    		</li>
-							</ul>
-						</li> -->
-					    <!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								Stories
-								<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="">
-							        <a href="<?= base_url() ?>/blog">Blog</a>
-							    </li>
-							    <li class="">
-							        <a href="<?= base_url() ?>/examples">Examples</a>
-					    		</li>
-							</ul>
-						</li> -->
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								Contact
-								<b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="">
-							        <a href="/page/contact">Contact Details</a>
-							    </li>
-								<li class="">
-							        <a href="/page/the-team">The Team</a>
-							    </li>
-							</ul>
-						</li> -->
 					 </ul>
 					 </div>
 			    </div>
