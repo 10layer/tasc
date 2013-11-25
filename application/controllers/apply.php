@@ -20,7 +20,7 @@
 			//First let's check if there is actually a competition running
 			$competitions = $this->tenlayer->listing(array("content_type"=>"competition", "order_by"=>"submission_start_date"))->content;
 			$competition_running = false;
-			$next_competition = $competitions[0];
+			$next_competition = false;
 			$current_competition = false;
 			foreach($competitions as $competition) {
 				$start_date = $competition->submission_start_date;
@@ -29,7 +29,7 @@
 					$competition_running = true;
 					$current_competition = $competition;
 				}
-				if ((time() < $competition->submission_start_date) && ($next_competition->submission_start_date > $competition->submission_start_date)) {
+				if (empty($next_competition) && (time() < $competition->submission_start_date)) {
 					$next_competition = $competition;
 				}
 			}
