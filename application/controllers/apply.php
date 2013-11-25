@@ -18,7 +18,7 @@
 		
 		public function index() {
 			//First let's check if there is actually a competition running
-			$competitions = $this->tenlayer->listing(array("content_type"=>"competition"))->content;
+			$competitions = $this->tenlayer->listing(array("content_type"=>"competition", "order_by"=>"submission_start_date"))->content;
 			$competition_running = false;
 			$next_competition = $competitions[0];
 			$current_competition = false;
@@ -29,7 +29,7 @@
 					$competition_running = true;
 					$current_competition = $competition;
 				}
-				if ((time() < $competition->start_date) && ($next_competition->start_date > $competition->start_date)) {
+				if ((time() < $competition->submission_start_date) && ($next_competition->submission_start_date > $competition->submission_start_date)) {
 					$next_competition = $competition;
 				}
 			}
