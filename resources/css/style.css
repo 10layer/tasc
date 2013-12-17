@@ -204,30 +204,30 @@ h4,
   height: 27px;
   background: url(/resources/images/shadow-down.png) repeat-x 0 0;
 }
-.carousel-inner p {
+#homepage .carousel-inner p {
   padding: 20px;
   font-size: 12pt;
   text-align: center;
 }
-.carousel-inner .img-container {
+#homepage .carousel-inner .img-container {
   height: 580px;
   overflow: hidden;
 }
-.carousel-inner img {
+#homepage .carousel-inner img {
   margin-top: -50%;
   padding-top: 450px;
 }
-.carousel-inner {
+#homepage .carousel-inner {
   background-color: #CCC;
 }
-.carousel-inner .img-blurb {
+#homepage .carousel-inner .img-blurb {
   margin-top: -45px;
   color: #FFF;
   background-color: rgba(9, 9, 9, 0.5);
   position: absolute;
   text-align: center;
 }
-.carousel-inner .img-blurb a {
+#homepage .carousel-inner .img-blurb a {
   color: #CCC;
 }
 @-webkit-keyframes slideup {

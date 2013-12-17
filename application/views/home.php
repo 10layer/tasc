@@ -1,7 +1,7 @@
 <?php
 	$this->load->view("templates/header");
 ?>
-<div class="container body">
+<div class="container body" id="homepage">
 <div class="lead">
 	<p>The African Story Challenge is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.</p>
 	<div class="row">
@@ -49,6 +49,28 @@
 		</div>
 	</div>
 </div>
+</div>
+<div class="container">
+	<?php
+	foreach($news as $item) {
+	?>
+	<div class="row ">
+		<div class="span12 underline">
+			<h2><?= anchor($item->content_type."/".$item->_id, $item->title) ?></h2>
+			<?php
+			if (!empty($item->blurb)) {
+			?>
+			<div class="lead">
+				<?= $item->blurb ?>
+			</div>
+			<?php
+			}
+			?>
+		</div>
+	</div>
+	<?php
+	}
+	?>
 </div>
 		<?php
 		$x = 1;
