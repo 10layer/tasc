@@ -50,6 +50,28 @@
 	</div>
 </div>
 </div>
+<div class="container">
+	<?php
+	foreach($news as $item) {
+	?>
+	<div class="row ">
+		<div class="span12 underline">
+			<h2><?= anchor($item->content_type."/".$item->_id, $item->title) ?></h2>
+			<?php
+			if (!empty($item->blurb)) {
+			?>
+			<div class="lead">
+				<?= $item->blurb ?>
+			</div>
+			<?php
+			}
+			?>
+		</div>
+	</div>
+	<?php
+	}
+	?>
+</div>
 		<?php
 		$x = 1;
 		foreach($homepage as $el) {
