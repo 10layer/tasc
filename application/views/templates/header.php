@@ -35,23 +35,11 @@
 			    				<a href="#" class="btn dropdown-toggle" data-toggle="dropdown">&#9776;</span></a>
 			    				<ul class="dropdown-menu">
 			    					<li><a href="<?= base_url() ?>">Home</a></li>
-			    					<li class="">
-										<a href="/apply">Apply</a>
-									</li>
 									<li class="">
 										<a href="/news">News</a>
 									</li>
 									<li class="">
 										<a href="/stories">Stories</a>
-									</li>
-									<li class="">
-										<a href="/page/key-dates">Key Dates</a>
-									</li>
-									<li class="">
-										<a href="/page/themes">Themes</a>
-									</li>
-									<li class="">
-										<a href="/page/how-to-enter">How to Enter</a>
 									</li>
 									<li class="">
 										<a href="/page/frequently-asked-questions">FAQ</a>
@@ -64,9 +52,6 @@
 							        </li>
 							        <li class="">
 										<a href="/page/judges">The Challenge Judges</a>
-									</li>
-									<li class="">
-										<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
 									</li>
 									<li class="">
 								        <a href="/page/contact">Contact Details</a>
@@ -112,29 +97,6 @@
 					    <li class="<?= ($uri == "home") ? 'active' : '' ?>">
 					        <a href="<?= base_url() ?>">Home</a>
 					    </li>
-					    <li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="visible-phone">&#9776;</span> <span class="hidden-phone">Competition Details <b class="caret"></b></span></a>
-						    <ul class="dropdown-menu">
-								<li class=" <?= ($uri == "key-dates") ? 'active' : '' ?>">
-									<a href="/page/key-dates">Key Dates</a>
-								</li>
-								<li class="<?= ($uri == "themes") ? 'active' : '' ?>">
-									<a href="/page/themes">Themes</a>
-								</li>
-								<li class="<?= ($uri == "how-to-enter") ? 'active' : '' ?>">
-									<a href="/page/how-to-enter">How to Enter</a>
-								</li>
-								<li class="<?= ($uri == "frequently-asked-questions") ? 'active' : '' ?>">
-									<a href="/page/frequently-asked-questions">FAQ</a>
-								</li>
-								<li class="<?= ($uri == "terms-and-conditions") ? 'active' : '' ?>">
-									<a href="/page/terms-and-conditions">Terms &amp; Conditions</a>
-								</li>
-							</ul>
-					    </li>
-					    <li class="<?= ($uri == "apply") ? 'active' : '' ?>">
-							<a href="/apply">Apply</a>
-						</li>
 						<li class="<?= ($uri == "news") ? 'active' : '' ?>">
 							<a href="/news">News</a>
 						</li>

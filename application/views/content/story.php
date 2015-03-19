@@ -4,7 +4,9 @@
 
 	$content = $this->tenlayer->get($content->_id, true);
 	// print_r($content);
-	$submission = $content->submission[0];
+	if (!empty($content->submission)) {
+		$submission = $content->submission[0];
+	}
 ?>
 <div class="container page">
 	<div class="row">
@@ -15,9 +17,11 @@
 	</div>
 	<div class="row">
 		<div class="span9 offset1">
+			<?php if (!empty($content->submission)) { ?>
 			<div class="lead underline">
 				By <?= $submission->first_name ?> <?= $submission->surname ?> 
 			</div>
+			<?php } ?>
 			<?php
 			if (!empty($content->article)) {
 			?>
@@ -25,6 +29,18 @@
 				<div class="span9">
 					<h4>Article</h4>
 					<div class="body"><?= $content->article ?></div>
+				</div>
+			</div>
+			<?php
+			}
+			?>
+
+			<?php
+			if (!empty($content->body)) {
+			?>
+			<div class="row">
+				<div class="span9">
+					<div class="body"><?= $content->body ?></div>
 				</div>
 			</div>
 			<?php
