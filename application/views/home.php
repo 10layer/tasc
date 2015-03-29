@@ -20,10 +20,9 @@
 			<div class="lead">
 				<?php if (!empty($item->photo)) {
 					$photo = $item->photo[0];
-					
 				?>
-				<div class="img-container">
-				    <img alt="<?= $item->title ?> - Photo" src="<?= photo($photo, 300, 200) ?>" />
+				<div class="img-container pull-left" style="margin-right: 10px;">
+				    <img alt="<?= $item->title ?> - Photo" src="<?= photo($photo, 200, 100) ?>" />
 			    </div>
 				<?php
 					
