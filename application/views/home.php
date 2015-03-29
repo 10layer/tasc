@@ -18,6 +18,18 @@
 			if (!empty($item->blurb)) {
 			?>
 			<div class="lead">
+				<?php if (!empty($item->photo)) {
+					$photo = $item->photo[0];
+					
+				?>
+				<div class="img-container">
+				    <img alt="<?= $item->title ?> - Photo" src="<?= photo($photo, 300, 200) ?>" />
+			    </div>
+				<?php
+					
+
+				}
+				?>
 				<?= $item->blurb ?>
 			</div>
 			<?php
