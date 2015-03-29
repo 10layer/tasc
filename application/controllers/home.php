@@ -18,7 +18,8 @@
 		
 		public function index() {
 			$content = $this->tenlayer->section("home");
-			$content->stories = $this->tenlayer->listing(["content_type"=>"story", "order_by"=>"start_date DESC"])->content;
+			$stories = $this->tenlayer->listing(["content_type"=>"story", "order_by"=>"start_date DESC"]);
+			$content->stories = $stories->content;
 			$this->load->view("home", $content);
 		}
 	}
