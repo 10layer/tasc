@@ -3,7 +3,7 @@
 ?>
 <div class="container body" id="homepage">
 <div class="lead well">
-	<p>The African Story Challenge is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.</p>
+	<p>The African Story Challenge (TASC) was a two-year project of reporting grants set up to spur innovative multimedia storytelling by African journalists, with the aim of encouraging better policies and greater public engagement on issues that matter to Africans. The project awarded 103 grants worth more than $500,000 to African journalists, resulting in nearly 300 in-depth and innovative stories circulated in major media across the continent. Below is a showcase of the winning stories developed around the themes of Agriculture, Health, Business and Technology.</p>
 </div>
 </div>
 <div class="container">
