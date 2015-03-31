@@ -21,6 +21,7 @@
 			$data["content_type"]="story";
 			$data["order_by"]="start_date DESC";
 			$stories = $this->tenlayer->listing($data);
+			$content = new stdClass;
 			$content->stories = $stories->content;
 			$this->load->view("home", $content);
 		}

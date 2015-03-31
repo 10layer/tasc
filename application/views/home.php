@@ -18,11 +18,11 @@
 			if (!empty($item->blurb)) {
 			?>
 			<div class="lead">
-				<?php if (!empty($item->photo)) {
+				<?php if (!empty($item->photo) && (is_array($item->photo))) {
 					$photo = $item->photo[0];
 				?>
 				<div class="img-container pull-left" style="margin-right: 10px;">
-				    <img alt="<?= $item->title ?> - Photo" src="<?= photo($photo, 200, 100) ?>" />
+				    <img alt="<?= $item->title ?> - Photo" src="<?= @photo($photo, 200, 100) ?>" />
 			    </div>
 				<?php
 					
@@ -40,7 +40,7 @@
 	}
 	?>
 </div>
-<div class="container">
+<!-- <div class="container">
 	<?php
 	foreach($news as $item) {
 	?>
@@ -61,8 +61,8 @@
 	<?php
 	}
 	?>
-</div>
-		<?php
+</div> -->
+<!-- 		<?php
 		$x = 1;
 		foreach($homepage as $el) {
 			$x++;
@@ -83,7 +83,7 @@
 		
 		<?php
 		}
-		?>
+		?> -->
 <?php
 	$this->load->view("templates/footer");
 ?>
