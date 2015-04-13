@@ -20,8 +20,9 @@
 			$data = Array();
 			$data["content_type"]="story";
 			$data["order_by"]="start_date DESC";
+			$content = $this->tenlayer->section("home");
 			$stories = $this->tenlayer->listing($data);
-			$content = new stdClass;
+			// $content = new stdClass;
 			$content->stories = $stories->content;
 			$this->load->view("home", $content);
 		}
