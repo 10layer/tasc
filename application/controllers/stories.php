@@ -30,7 +30,7 @@ class Stories extends CI_Controller {
 		}
 		$data["section"] = $this->tenlayer->get($section_url);
 		$stories = $this->tenlayer->listing(array("content_type"=>"story", "api_key"=>$api_key))->content;
-		$selected_stories = [];
+		$selected_stories = array();
 		for($x = 0; $x < sizeof($stories); $x++) {
 			if (!empty($stories[$x]->competition) && ($stories[$x]->competition == $section_url)) {
 				$selected_stories[] = $stories[$x];
