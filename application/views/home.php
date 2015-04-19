@@ -41,8 +41,8 @@
 			<?php
 			}
 			?>
-			<!-- <a href="/stories/diseases">See all the Diseases: Prevention and Treatment stories</a> -->
-			<a href="/stories">See all the stories</a>
+			<a href="/stories/diseases">See all the Diseases: Prevention and Treatment stories</a>
+			<!-- <a href="/stories">See all the stories</a> -->
 		</div>
 	</div>
 
@@ -78,8 +78,8 @@
 			<?php
 			}
 			?>
-			<!-- <a href="/stories/business">See all the Business and Technology stories</a> -->
-			<a href="/stories">See all the stories</a>
+			<a href="/stories/business">See all the Business and Technology stories</a>
+			<!-- <a href="/stories">See all the stories</a> -->
 		</div>
 	</div>
 
@@ -115,8 +115,8 @@
 			<?php
 			}
 			?>
-			<!-- <a href="/stories/agriculture">See all the Agriculture and Food Security stories</a> -->
-			 <a href="/stories">See all the stories</a>
+			<a href="/stories/agriculture">See all the Agriculture and Food Security stories</a>
+			 <!-- <a href="/stories">See all the stories</a> -->
 		</div>
 	</div>
 	
