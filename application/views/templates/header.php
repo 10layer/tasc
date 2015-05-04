@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="The African Story Challenge (TASC) is a new $1 million programme of reporting grants to encourage innovative, multi-media storytelling that aims to improve the health and prosperity of Africans.">
+	<meta name="description" content="The African Story Challenge (TASC) is a project of reporting grants set up to spur innovative multimedia storytelling by African journalists, with the aim of encouraging better policies and greater public engagement on issues that matter to Africans.">
 	<meta name="keywords" content="Journalism, Africa, Reporting, Storytelling, Health, Agriculture, Rural Development, Water, Sanitation, Business, Technology, Environment">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The African Story Challenge</title>
